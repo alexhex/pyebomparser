@@ -1,0 +1,379 @@
+ENVELOPE CALCULATIONS WORKSHEET														
+Packer Information	Packer Type	7 X 4.000 QUANTUM MAX (32-35)	OPER.		DIFF.		AXIAL LOADS							NOTES
+	GeMS Part Number	103073784	RIH LIMIT	TAIL LOAD LIMIT	TUBING / PRESSURE BELOW	TUBING / PRESSURE ABOVE	TENSION	PRESSURE BELOW (UNPLUGGED)	PRESSURE BELOW (PLUGGED)	COMPRESSION	PRESSURE ABOVE (ISOLATED)	PRESSURE ABOVE (UNPLUGGED)	PRESSURE ABOVE (PLUGGED)	All Calculations done at Minimum MC
+Document Information	GeMS Document Number	103079333												
+Piston Areas	Total Casing Area	30.269												Operating in 32-35 ppf casing only.
+	Total Packer Piston Area	17.702												Casing Max ID to Tubing OD, Min ID
+	Element Piston Area	13.191												Casing Max ID to Min Packer Seal OD
+	Mandrel Piston Area	4.511												Element Min Seal OD to Min Packer ID
+	Packer ID Area	12.566												
+	Max Casing Area to Mandrel Lower O-ring Seal Seal Surface Piston Area	9.680												Max Casing ID to Mandrel Lower O-ring Seal Sruface 
+	Setting Force	40,000												From Element Test, ET201106465, GeMS 100965871
+Required Load Limits	Max Tensile (lbs)	178,642												Thread Relief in Collet
+	Max Compressive (lbs)	200,000												Based on Legacy Bearing Calculation to keep SOS same as previous qualified packer. (state of stress - SOS)
+Required Pressure Limits	UA (psi)	10,000												
+	LA (psi)	10,000												
+Required Pressure Limits @ ISOLATED	UA (psi)	9,970												
+	LA (psi)	8,650												
+Required Pressure Limits @ PLUGGED	UA (psi)	8,090												
+	LA (psi)	8,650												
+Temperatue CF	925	0.945												Temperature Correction Factor - 250ºF, GeMS 100078954
+	Super 13CR	0.938												Temperature Correction Factor - 250ºF, GeMS 100078954
+	41XX	0.930												Temperature Correction Factor - 250ºF, GeMS 100078954
+Flow Wett Material	925	110,000												
+	Super 13CR	95,000												
+	41XX	110,000												
+														
+2A: THD Relief at Upper Sub Mandrel (0002)														
+Material	Sy,min (psi)	95,000												
+	Material	Super 13CR												
+	Sy,min w/Temp CF (psi)	89,110												
+Geometry	Min OD (in)	5.1950												
+	Max ID (in)	4.7390												
+	Area (in2)	3.5578												
+"Tension or
+Compression Only"	Max Tensile Load w/1.1 FS (lbs)	288,212												
+	Max TensileWorking Load (lbs)	178,642												
+	Factor of Safety	1.77												
+	Max Tensile Load w/1.1 FS (lbs)	288,212												
+Pressure Above (Isolated, Plugged)	Pressure Above w/1.1 FS (psi)	63,891												
+	Max Working Pressure (psi)	10,000												
+	Factor of Safety	7.03												
+2T3: Thread Shear thru Upper Sub Mandrel (0002) and Mandrel (0003)														
+Material	Sy,box (psi)	95,000												
+	Sy,pin (psi)	95,000												
+	Material - Box	Super 13CR												
+	Material - Pin	Super 13CR												
+	Sy,box w/Temp CF (psi)	89,110												
+	Sy,pin w/Temp CF (psi)	89,110												
+Thread Information	Thread	4.665-8 Stub Acme												
+	Length of Engagement (in)	0.951												tol +/-.045
+"Pressure Above 
+(Isolated, Plugged):"	Tensile Max Load w/1.1 FS (lbs)	267,172												from Thread Shear program
+	Max Working Load (lbs)	178,642												
+	Max Pressure w/1.1 FS (psi)	59,227												
+	Max Working Pressure (psi)	10,000												
+	Factor of Safety	1.65												
+3A: THD Relief (Upper) Mandrel (0003)														
+Material	Sy,min (psi)	95,000												
+	Material	Super 13CR												
+	Sy,min w/Temp CF (psi)	89,110												
+Geometry	Min OD (in)	4.5340												
+	Max ID (in)	4.0050												
+	Area (in2)	3.548												
+"Tension or
+Compression Only"	Max Load Tensile/Compressive w/1.1 FS (lbs)	287,400												
+	Max Tensile Working Load (lbs)	178,642												
+	Max Compressive Working Load (lbs)	200,000												
+	Factor of Safety	1.58												
+Pressure Above (Isolated, Plugged)	Max Load w/1.1 FS (lbs)	287,400												
+	Max Pressure w/1.1 FS (psi)	63,711												
+	Max Working Pressure (psi)	10,000												
+	Factor of Safety	7.01												
+3B: Thread Relief (lower) Mandrel (0003)														
+Material	Sy,min (psi)	95,000												
+	Material	Super 13CR												
+	Sy,min w/Temp CF (psi)	89,110												
+Geometry	Min OD (in)	4.4340												
+	Max ID (in)	4.0050												
+	Area (in2)	2.843												
+Tension	Max Load w/1.1 FS (lbs)	230,341												
+	Max Working Load (lbs)	178,642												
+	Factor of Safety	1.42												
+Tension + Pressure Above (Isolated)	Max Load w/1.1 FS (lbs)	230,341												
+	Max Pressure w/1.1 FS (psi)	23,796												
+	Factor of Safety	2.38												
+Tension + Pressure Below (Unplugged)	Max Load w/1.1 FS (lbs)	230,341												
+	Max Pressure w/1.1 FS (psi)	13,012												
+	Factor of Safety	1.42												
+Tension + Pressure Above (Plugged)	Max Load w/1.1 FS (lbs)	230,341												
+	Max Pressure w/1.1 FS (psi)	18,330												
+	Factor of Safety	1.42												
+3C: Ratchet Thread Relief on Mandrel (0003)														
+Material	Sy,min (psi)	95,000												
+	Material	Super 13CR												
+	Sy,min w/Temp CF (psi)	89,110												
+Geometry	Min OD (in)	4.6175												
+	Max ID (in)	4.005												
+	Area (in2)	4.148												
+Tension	Max Load w/1.1 FS (lbs)	336,018												
+	Max Working Load (lbs)	178,642												
+	Factor of Safety	2.07												
+Pressure Below(Isolated)	Max Load w/1.1 FS (lbs)	336,018												
+	Max Pressure w/1.1 FS (psi)	34,713												
+	Factor of Safety	3.82												
+Pressure Below(Unplugged)	Max Load w/1.1 FS (lbs)	336,018												
+	Max Pressure w/1.1 FS (psi)	18,982												
+	Factor of Safety	2.07												
+"Tension + Pressure Below
+(Isolated)"	Max Tension w/1.1 FS (lbs)	336,018												
+	Max Working Load (lbs)	178,642												
+	Max Pressure w/1.1 FS (psi)	34,713												
+	Max Working Pressure	10,000												
+	Factor of Safety	2.07												
+"Tension + Pressure Above
+(Plugged)"	Max Tension w/1.1 FS (lbs)	336,018												
+	Max Working Load (lbs)	178,642												
+	Max Pressure w/1.1 FS (psi)	26,739												
+	Max Working Pressure	10,000												
+	Factor of Safety	2.07												
+3T20: thread Shear btw Mandrel (0003) and Collet (0020)														
+Material	Sy,box (psi)	95,000												
+	Sy,pin (psi)	95,000												
+	Material - Box	Super 13CR												
+	Material - Pin	Super 13CR												
+	Sy,box w/Temp CF (psi)	89,110												
+	Sy,pin w/Temp CF (psi)	89,110												
+Thread Information	Thread	Special Buttress RH 4.541-12												
+	Length of Engagement (in)	1.405												tol +/- .011
+"Tension + Pressure Below
+(Isolated):"	Max Load w/1.1 FS (lbs)	544,867												from THD shear program
+	Max Load w/1.1 FS (lbs)	178,642												
+	Max Pressure w/1.1 FS (psi)	56,288												
+	Max Working Pressure (psi)	10,000												
+	Factor of Safety	3.36												
+"Tension + Pressure Below
+(Unplugged):"	Max Load w/1.1 FS (lbs)	544,867												from THD shear program
+	Max Load w/1.1 FS (lbs)	178,642												
+	Max Pressure w/1.1 FS (psi)	30,779												
+	Max Working Pressure (psi)	10,000												
+	Factor of Safety	3.08												
+"Tension + Pressure Above
+(Plugged):"	Max Load w/1.1 FS (lbs)	544,867												from THD shear program
+	Max Load w/1.1 FS (lbs)	178,642												
+	Max Pressure w/1.1 FS (psi)	43,359												
+	Max Working Pressure (psi)	10,000												
+	Factor of Safety	3.36												
+20A: Thread Relief Collet (0020)														
+Material	Sy,min (psi)	95,000												
+	Material	Super 13CR												
+	Sy,min w/Temp CF (psi)	89,110												
+Geometry	Min OD (in)	4.860												
+	Max ID (in)	4.562												
+	Area (in2)	2.205												
+Tension	Max Load w/1.1 FS (lbs)	178,642												
+	Max Working Load (lbs)	178,642												
+	Factor of Safety	1.10												
+Tension + Pressure Below (Isolated)	Max Load w/1.1 FS (lbs)	178,642												
+	Max Pressure w/1.1 FS (psi)	18,455												
+	Max Working Pressure w/1.1 FS (psi)	10,000												
+	Factor of Safety	2.03												
+Tension + Pressure Below (Unplugged)	Max Load w/1.1 FS (lbs)	178,642												
+	Max Pressure w/1.1 FS (psi)	10,091												
+	Max Working Pressure w/1.1 FS (psi)	10,000												
+	Factor of Safety	1.11												
+Tension + Pressure Above (Plugged)	Max Load w/1.1 FS (lbs)	178,642												
+	Max Pressure w/1.1 FS (psi)	14,216												
+	Max Working Pressure w/1.1 FS (psi)	10,000												
+	Factor of Safety	1.56												
+20T17: Bearing contact area thru Collet (0020) and Connector housing (0017)														
+Material	Sy,min (psi)	95,000												Lowest contact yield strength of the two parts
+	Material	Super 13CR												
+	Sy,min w/Temp CF (psi)	89,110												
+Geometry	Min OD (in)	5.099												
+	Max ID (in)	4.885												
+	Area (in2)	1.593												Use Actual area and not the projected area
+	Area w/1.5 Bearing Factor (in2)	2.39												Bearing Factor of 1.5 used
+Tension Only	Max Load w/1.1 FS (lbs)	193,602												
+	Factor of Safety	1.19												
+Tensile + Pressure Below (Isolated)	Max Load w/1.1 FS (lbs)	193,602												
+	Max Pressure w/1.1 FS (psi)	20,000												
+	Max Working Pressure w/1.1 FS (psi)	10,000												
+	Factor of Safety	2.20												
+Tensile + Pressure Below (Unplugged)	Max Load w/1.1 FS (lbs)	193,602												
+	Max Pressure w/1.1 FS (psi)	10,937												
+	Max Working Pressure w/1.1 FS (psi)	10,000												
+	Factor of Safety	1.19												
+Tensile + Pressure Above (Plugged)	Max Load w/1.1 FS (lbs)	193,602												
+	Max Pressure w/1.1 FS (psi)	15,406												
+	Max Working Pressure w/1.1 FS (psi)	10,000												
+	Factor of Safety	1.69												
+17A: Thread Relief (Upper) Connector Housing (0017)														
+Material	Sy,min (psi)	95,000												
+	Material	Super 13CR												
+	Sy,min w/Temp CF (psi)	89,110												
+Geometry	Min OD (in)	5.79												
+	Max ID (in)	5.377												
+	Area (in2)	3.62												
+	Max Load w/1.1 FS (lbs)	293,434												
+"Tension + Pressure Below
+(Isolated)"	Max Working Load (lbs)	178,642												
+	Max Pressure w/1.1 FS (psi)	30,314												
+	Max Working Pressure (psi)	10,000												
+	Factor of Safety	1.81												
+"Tension + Pressure Below
+(Unplugged)"	Max Working Load (lbs)	293,434												
+	Max Pressure w/1.1 FS (psi)	16,576												
+	Max Working Pressure (psi)	10,000												
+	Factor of Safety	1.81												
+"Tension + Pressure Below
+(Plugged)"	Max Working Load (lbs)	293,434												
+	Max Pressure w/1.1 FS (psi)	9,694												
+	Max Working Pressure (psi)	8,650												
+	Factor of Safety	1.23												
+17T16: Thread Shear thru Connector (0017) and Lower Cone (0016)														
+Material	Sy,box (psi)	95,000												
+	Sy,pin (psi)	110,000												
+	Material - Box	Super 13CR												
+	Material - Pin	41XX												
+	Sy,box w/Temp CF (psi)	89,110												
+	Sy,pin w/Temp CF (psi)	102,300												
+Thread Information	Thread	5.313-8 Stub Acme												
+	Length of Engagement (in)	1.186												tol +/-.015
+Tension	Max Load w/1.1 FS (lbs)	419,696												from Thread Shear program
+Pressure Below (Isolated)	Max Working Load (lbs)	178,642												
+	Max Pressure w/1.1 FS (psi)	43,357												
+	Max Working Pressure (psi)	10,000												
+	Factor of Safety	2.58												
+Tension	Max Load w/1.1 FS (lbs)	419,696												from Thread Shear program
+Pressure Below (Unplugged)	Max Working Load (lbs)	178,642												
+	Max Pressure w/1.1 FS (psi)	23,709												
+	Max Working Pressure (psi)	10,000												
+	Factor of Safety	2.58												
+16A: Lower Cone Collapse (0016)														
+Material	Sy,min (psi)	110,000												
+	Material	41XX												
+	Sy,min w/Temp CF (psi)	102,300												Lower Cone Design have been tested and validated in prior test noted
+Tested Data, ET200601167, GeMS Document 100297823	Lower Cone 													
+														
+														
+														
+														
+3T8: Thread shear thru mandrel (0003) and ratchet ring (0008) [Lower Ratchet]														
+Material	Sy,box (psi)	110,000												
+	Sy,pin (psi)	95,000												
+	Material - Box	41XX												
+	Material - Pin	Super 13CR												
+	Sy,box w/Temp CF (psi)	102,300												
+	Sy,pin w/Temp CF (psi)	89,110												
+Thread Information	Thread	4.647-16 Special Buttress LH												
+	Length of Engagement (in)	1.169												tol +/-.005
+"Pressure Above (Isolated)
+"	Max Compressive Load w/1.1 FS (lbs)	429,431												See Buttress Thread Calc_350F, as the SF is high so temp is not revised
+	Max Pressure w/1.1 FS (psi)	95,197												
+	Max Working Pressure (psi)	10,000												
+	Factor of Safety	10.47												
+"Pressure Below
+(Isolated)"	Max Load w/1.1 FS (lbs)	429,431												
+	Max Pressure w/1.1 FS (psi)	95,197												Not a combine load path
+	Max Working Pressure (psi)	10,000												
+	Factor of Safety	10.47												
+"Pressure Above
+(Plugged)"	Max Load w/1.1 FS (lbs)	429,431												
+	Max Pressure w/1.1 FS (psi)	25,146												Not a combine load path
+	Max Working Pressure (psi)	10,000												
+	Factor of Safety	2.77												
+3T8: Thread shear thru mandrel (0003) and ratchet ring (0008) [Upper Ratchet]														
+Material	Sy,box (psi)	110,000												
+	Sy,pin (psi)	95,000												
+	Material - Box	41XX												
+	Material - Pin	Super 13CR												
+	Sy,box w/Temp CF (psi)	102,300												
+	Sy,pin w/Temp CF (psi)	89,110												
+Thread Information	Thread	4.647-16 Special Buttress LH												
+	Length of Engagement (in)	1.169												tol +/-.005
+"Pressure Below (Isolated)
+"	Max Compressive Load w/1.1 FS (lbs)	429,431												See Buttress Thread Calc_350F, as the SF is high so temp is not revised
+	Max Pressure w/1.1 FS (psi)	44,363												
+	Max Working Pressure (psi)	10,000												
+	Factor of Safety	4.88												
+"Pressure Below
+(Isolated)"	Max Load w/1.1 FS (lbs)	429,431												
+	Max Pressure w/1.1 FS (psi)	44,363												Not a combine load path
+	Max Working Pressure (psi)	10,000												
+	Factor of Safety	4.88												
+8T12: Bearing Load Rathet ring (0008) thru Upper Cone (0012)														
+Material	Sy,box (psi)	110,000												
+	Sy,pin (psi)	110,000												
+	Material - Box	41XX												
+	Material - Pin	41XX												
+	Sy,box w/Temp CF (psi)	102,300												
+	Sy,pin w/Temp CF (psi)	102,300												
+Thread Information	Bearing Contact Area	1.45												Actual Contact Area not projected
+	Length of Engagement (in)	1.375												tol +/- .030
+	Max Load w/1.1 FS (lbs)	202,075												See Ratchet thread Shear tab. Previous calculation/tested envelope uses a 2.5 bearing factor.. This analyses uses a 1.5 bearing factor
+Pressure Above (Isolated)	Max Pressure (psi)	44,796												
+	Factor of Safety	4.93												
+	Max Load w/1.1 FS (lbs)	202,075												
+Pressure Below (Isolated)	Max Working Pressure (psi)	20,876												Max Pressure for Upper Ratchet Ring
+	Factor of Safety	2.30												
+Pressure Above (Plugged)	Max Pressure (psi)	11,833												
+	Factor of Safety	1.30												
+12A: Upper Cone Collapse (0012)														
+Material	Sy,min (psi)	110,000												
+	Material	41XX												
+	Sy,min w/Temp CF (psi)	102,300												Upper Cone Design have been tested and validated in the prevous test noted.
+Tested Data, ET200601167, GeMS Document 100297823	Upper Cone													
+														
+11A: Thread Relief Lower Gage Ring (0011)														
+Material	Sy,min (psi)	80,000												
+	Material	41XX												
+	Sy,min w/Temp CF (psi)	71,200												
+Geometry	Min OD (in)	5.805												
+	Max ID (in)	5.5690												
+	Area (in2)	2.11												
+"Pressure Above
+(Isolated, Plugged):"	Max Load w/1.1 FS (lbs)	136,459												
+	Max Working Pressure (psi)	10,000												
+	Max Pressure w/1.1 FS (psi)	10,345												Not a combine load path, pressure above only
+														
+	Factor of Safety	1.14												
+3D: Mandrel Collapse (Buttress thread Relief)														
+Material	Sy,min (psi)	95,000												
+	Material	Super 13CR												
+	Sy,min w/Temp CF (psi)	89,110												
+Geometry	Min OD (in)	4.6175												
+	Max ID (in)	4.0050												
+	Area (in2)	4.15												
+"Pressure Above
+(Unplugged):"	Max Load w/1.1 FS (lbs)	336,018												
+	Max Tensile Load w/1.1 FS (lbs)	178,642												
+	Max Collapse Pressure (psi)	10,626												From BCTC
+	Max Pressure w/1.1 FS (psi)	10,000												
+	Factor of Safety	1.17												
+"Pressure Below
+(Isolated):"	Max Load w/1.1 FS (lbs)	336,018												
+	Max Tensile Load w/1.1 FS (lbs)	178,642												
+	Max Collapse Pressure (psi)	8,655												From BCTC
+	Max Pressure w/1.1 FS (psi)	8,650												
+	Factor of Safety	1.10												
+														
+3E: Mandrel Burst (Buttress thread Relief)														
+Material	Sy,min (psi)	95,000												
+	Material	Super 13CR												
+	Sy,min w/Temp CF (psi)	89,110												
+Geometry	Min OD (in)	4.6175												
+	Max ID (in)	4.0050												
+	Area (in2)	4.15												
+Pressure Below (Unplugged):	Max Load w/1.1 FS (lbs)	336,018												
+	Max Compression Load w/1.1 FS (lbs)	200,000												
+	Max Burst Pressure (psi)	10,626												
+	Max Pressure w/1.1 FS (psi)	10,000												
+	Factor of Safety	1.17												
+"Pressure Above
+(Isolated):"	Max Load w/1.1 FS (lbs)	336,018												
+	Max Compression Load w/1.1 FS (lbs)	200,000												
+	Max Burst Pressure (psi)	9,970												From BCTC
+	Max Pressure w/1.1 FS (psi)	9,970												
+	Factor of Safety	1.10												
+"Pressure Above
+(Plugged):"	Max Load w/1.1 FS (lbs)	336,018												
+	Max Compression Load w/1.1 FS (lbs)	200,000												
+	Max Burst Pressure (psi)	8,090												
+	Max Pressure w/1.1 FS (psi)	110,000												
+	Factor of Safety	0.08												
+3F: Mandrel Collapse (Mandrel pickup recess)														
+Material	Sy,min (psi)	95,000												
+	Material	Super 13CR												
+	Sy,min w/Temp CF (psi)	89,110												
+Geometry	Min OD (in)	4.62												
+	Max ID (in)	4.0050												
+	Area (in2)	4.17												
+"Pressure Below
+(Isolated, Plugged):"	Max Load w/1.1 FS (lbs)	337,488												
+	Max Compression Load w/1.1 FS (lbs)	200,000												
+	Max Collapse Pressure (psi)	8,090												From BCTC
+	Max Pressure w/1.1 FS (psi)	10,000												
+	Factor of Safety	0.89												
+														
+														
