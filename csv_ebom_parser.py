@@ -9,18 +9,14 @@ import collections
 
 # the point of making a new table is to add a column called "parent id" to extend it to a tree structure.
 def make_table(origin):
-    with open(origin[0], 'r', newline='') as header, open(origin[1], 'w', newline='') as ebomfile:
+    with open(origin, 'r', newline='') as header:
         head = header.readlines()
         # base = re.findall(r'\d{9}', head[0])
-        useful_items = []
+        # useful_items = []
         reader = csv.DictReader(head[2:])
         id_group = [0,0,0,0,0]
-        head = reader.fieldnames
-        head[-1] = 'Parent Name'
-        # print (head)
-        writer = csv.DictWriter(ebomfile, head) 
-        writer.writeheader()
-        for row in reader:
+        reader_list = list(reader)
+        for row in reader_list:
             id_group[int(row['Level'])-1] = row['Name']
             try:
                 row['Parent Name'] = id_group[int(row['Level'])-2]
@@ -30,52 +26,43 @@ def make_table(origin):
 
             # from below the codes are filtering the rows to write in file. 
             # Here it only allows the rows with usages and their level-3 child items
-            if row['Level'] == '2' and row['Usage']:
-                writer.writerow(row)
-                useful_items.append(row['Name'])
-            elif row['Level'] == '3' and row['Parent Name'] in useful_items:
-                writer.writerow(row)
-        
+            # if row['Level'] == '2' and row['Usage']:
+            #     writer.writerow(row)
+            #     useful_items.append(row['Name'])
+            # elif row['Level'] == '3' and row['Parent Name'] in useful_items:
+            #     writer.writerow(row)
+        return reader_list 
 
 def compare(base, ref):
-    with open(base, 'r', newline='') as basehandle, open(ref, 'r', newline='') as refhandle, open(os.path.join(folderpath, 'common.csv'), 'w', newline='') as cmnhandle:
-
-
-        basereader = csv.DictReader(basehandle)
-        refreader = csv.DictReader(refhandle)
+    with open(os.path.join(folderpath, 'common.csv'), 'w', newline='') as cmnhandle:
         head = ['Item Number', 'New Packer', 'Ref Packer', 'Short Description', 'Comments']
 
         cmnwriter = csv.DictWriter(cmnhandle, head)
         cmnwriter.writeheader()
 
-        reflist = list(refreader)
-        
-
-        for row_1 in basereader:
-        #     print ('row_1')
-        #     print (row_1['Name'])
-        #     refreader = csv.DictReader(refhandle)
+        for row_1 in base:
             row_1['Comments'] = ''
-            for item in reflist:
-                if row_1['Level'] == '2' and item['Level'] == '2' and row_1['Name'] == item['Name']:
-                    if row_1['Qty'] == item['Qty']:
+            for row_2 in ref:
+                if row_1['Level'] == '2' and row_2['Level'] == '2' and row_1['Name'] == row_2['Name']:
+                    if row_1['Qty'] == row_2['Qty']:
                         row_1['Comments'] = 'Perfect Match'
                         cmnwriter.writerow(simp_row(row_1))
                         break
                     else:
-                        row_1['Comments'] = 'Qty changed from %s to %s' % (item['Qty'], row_1['Qty'])
+                        row_1['Comments'] = 'Qty changed from %s to %s' % (row_2['Qty'], row_1['Qty'])
                         cmnwriter.writerow(simp_row(row_1))
                         break
             
-        #     #Start to handle the drawing comparison
+            #Start to handle the drawing comparison
             # refreader = csv.DictReader(refhandle)
             if row_1['Comments'] == '':
-                for item in reflist:
-                    if item['Level'] == '3' and row_1['Level'] == '2' and get_drawing(row_1, 'base.csv') == item['Name']:
-                        row_1['Comments'] = 'share the same drawing %s' % (item['Name'])
-                        cmnwriter.writerow(simp_row(row_1, item['Parent Name']))
+                for row_2 in ref:
+                    if row_2['Level'] == '3' and row_1['Level'] == '2' and get_drawing(row_1, base) == row_2['Name']:
+                        row_1['Comments'] = 'share the same drawing %s' % (row_2['Name'])
+                        cmnwriter.writerow(simp_row(row_1, row_2['Parent Name']))
                         break
-            
+
+            # Till here the corresponding part is still not found... 
             if row_1['Comments'] == '':
                 if row_1['Level'] == '2':
                     row_1['Comments'] = 'Cannot find the corresponding part'
@@ -83,27 +70,10 @@ def compare(base, ref):
 
 
 def get_drawing(row, raw_tb):
-    with open(raw_tb, 'r', newline='') as handle:
-        reader = csv.DictReader(handle)
-        for gst_row in reader:
-            if gst_row['Level'] == '3' and gst_row['Type'] == 'ProE Drawing' and gst_row['Parent Name'] == row['Name']:
-                return gst_row['Name']
+    for gst_row in raw_tb:
+        if gst_row['Level'] == '3' and gst_row['Type'] == 'ProE Drawing' and gst_row['Parent Name'] == row['Name']:
+            return gst_row['Name']
          
-
-        # with open('report.md', 'w') as resulthandle:
-        #     resulthandle.writelines('# Comparison Result\n')
-        #     resulthandle.writelines('## Common Components\n')
-        #     resulthandle.writelines('|Item Number|New Packer|DUT|Short Description|Comment|\n')
-        #     resulthandle.writelines('|           |          |   |                 |       |\n')
-
-        #     basereader = csv.DictReader(basehandle)
-        #     refreader = csv.DictReader(refhandle)
-        #     for row in basereader:
-        #         for row_2 in refreader:
-        #             if row['Level'] == 2 and row_2['Level'] == 2 and row['Name'] == row_2['Name']:
-        #                 if row['Qty'] == row_2['Qty']:
-        #                     resulthandle.
-
 
 def simp_row(long_row, refpn = ''):
     long_descr = long_row['Description']
@@ -148,7 +118,5 @@ fullpath_1 = os.path.join(folderpath, filename_1)
 filename_2 = '101706021.csv'
 fullpath_2 = os.path.join(folderpath, filename_2)
 
-make_table([fullpath_1, os.path.join(folderpath,'base.csv')])
-make_table([fullpath_2, os.path.join(folderpath,'ref.csv')])
 
-compare(os.path.join(folderpath, 'base.csv'), os.path.join(folderpath, 'ref.csv'))
+compare(make_table(fullpath_1), make_table(fullpath_2))
