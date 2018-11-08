@@ -7,6 +7,7 @@ import re
 import csv
 import collections
 
+# the point of making a new table is to add a column called "parent id" to extend it to a tree structure.
 def make_table(origin):
     with open(origin[0], 'r', newline='') as header, open(origin[1], 'w', newline='') as ebomfile:
         head = header.readlines()
@@ -37,7 +38,9 @@ def make_table(origin):
         
 
 def compare(base, ref):
-    with open(base, 'r', newline='') as basehandle, open(ref, 'r', newline='') as refhandle, open('common.csv', 'w', newline='') as cmnhandle:
+    with open(base, 'r', newline='') as basehandle, open(ref, 'r', newline='') as refhandle, open(os.path.join(folderpath, 'common.csv'), 'w', newline='') as cmnhandle:
+
+
         basereader = csv.DictReader(basehandle)
         refreader = csv.DictReader(refhandle)
         head = ['Item Number', 'New Packer', 'Ref Packer', 'Short Description', 'Comments']
@@ -56,7 +59,7 @@ def compare(base, ref):
             for item in reflist:
                 if row_1['Level'] == '2' and item['Level'] == '2' and row_1['Name'] == item['Name']:
                     if row_1['Qty'] == item['Qty']:
-                        row_1['Comments'] = 'All right then~'
+                        row_1['Comments'] = 'Perfect Match'
                         cmnwriter.writerow(simp_row(row_1))
                         break
                     else:
@@ -69,9 +72,15 @@ def compare(base, ref):
             if row_1['Comments'] == '':
                 for item in reflist:
                     if item['Level'] == '3' and row_1['Level'] == '2' and get_drawing(row_1, 'base.csv') == item['Name']:
-                        row_1['Comments'] = 'Drawing the same with Part Number %s' % item['Parent Name']
+                        row_1['Comments'] = 'share the same drawing %s' % (item['Name'])
                         cmnwriter.writerow(simp_row(row_1, item['Parent Name']))
                         break
+            
+            if row_1['Comments'] == '':
+                if row_1['Level'] == '2':
+                    row_1['Comments'] = 'Cannot find the corresponding part'
+                    cmnwriter.writerow(simp_row(row_1))
+
 
 def get_drawing(row, raw_tb):
     with open(raw_tb, 'r', newline='') as handle:
@@ -115,18 +124,31 @@ def simp_row(long_row, refpn = ''):
             short_descr = ' '.join(short_descr_list)
         except:
             short_descr = short_descr_list
+        
+
+
     short_row = {}
     short_row['Item Number'] = long_row['Item Number']
     short_row['New Packer'] = long_row['Name']
+    short_row['Short Description'] = short_descr
+
     if refpn == '':
         short_row['Ref Packer'] = long_row['Name']
     else:
         short_row['Ref Packer'] = refpn
-    short_row['Short Description'] = short_descr
+    
     short_row['Comments'] = long_row['Comments']
+
 
     return short_row
 
-make_table(['103130620.csv','base.csv'])
-make_table(['101706021.csv', 'ref.csv'])
-compare('base.csv', 'ref.csv')
+folderpath = os.path.dirname(os.path.abspath(__file__))
+filename_1 = '103130620.csv'
+fullpath_1 = os.path.join(folderpath, filename_1)
+filename_2 = '101706021.csv'
+fullpath_2 = os.path.join(folderpath, filename_2)
+
+make_table([fullpath_1, os.path.join(folderpath,'base.csv')])
+make_table([fullpath_2, os.path.join(folderpath,'ref.csv')])
+
+compare(os.path.join(folderpath, 'base.csv'), os.path.join(folderpath, 'ref.csv'))

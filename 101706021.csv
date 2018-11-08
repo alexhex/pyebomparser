@@ -1,264 +1,251 @@
-Part SLB 101706021 AC: Engineering Bill of Materials
-, , , , , , , , , , , , ,EBOM Values,Specification Values,
-Level,Name,Type,Rev,Description,State,U of M,Qty,Item Number,Product Line,General Notes,Legacy Item Number,Project,Usage,Document Usage,
-1,101706021,Part SLB,AC,"7 X 4.000 QUANTUM MAX (32-35), SUPER 13CR (110), AFLAS (90-80-90), 4.937-6 STUB ACME",Released,EA - Each,,,CPE7,,,CPS_COMPLETIONS,,,
-2,MN-15,Instruction-Procedure,AZ,PRODUCT IDENTIFICATION,Released,,"=""0.0""",,CAAD,STAMP AT ID MARKER,,CPS_QA2,,Reference Document,
-2,100129310,Instruction-Procedure,AE,"PROCEDURE, QUANTUM MAX PACKER ASSEMBLY",Released,,"=""0.0""",,CPED,ASSEMBLY PROCEDURE,,CPS_COMPLETIONS,,Reference Document,
-2,100431590D,ProE Drawing,AD,7 X 4.000 QMAX (32-35) AFLAS,Released,,"=""0.0""",,CPH6,,,CPS_COMPLETIONS,,Described By,
-2,CSP-99,Coating Specifications,BB,APPLICATION OF RUST PREVENTATIVES,Released,,"=""0.0""",,CSAD,ENTIRE PART,,MatEng,,Reference Document,
-2,44661-925-00001,Part SLB,AC,"4.000 IN BORE, PACKER SEAL TEST FIXTURE, 4.937-6 STUB ACME",Released,EA - Each,"=""0.0""",,CPE6,QTY. 1 NEEDED FOR FAT,,CPS_COMPLETIONS,Mfg Equipment Process,,
-3,CSP-99,Coating Specifications,BB,APPLICATION OF RUST PREVENTATIVES,Released,,"=""0.0""",,CSAD,ENTIRE PART,,MatEng,,Reference Document,
-3,MN-15,Instruction-Procedure,AZ,PRODUCT IDENTIFICATION,Released,,"=""0.0""",,CAAD,"FLAG 1, STAMP",,CPS_QA2,,Reference Document,
-3,101286095D,ProE Drawing,AA,"4.000 IN BORE, PACKER SEAL TEST FIXTURE, 4.937-6 STUB ACME",Released,,"=""0.0""",,CSED,,,CEPU-CC GENERAL,,Described By,
-3,101283748,Part SLB,AA,"PISTON, LOWER, PACKER SEAL TEST FIXTURE, 4.000 IN BORE, 4140/4145 (110)",Released,EA - Each,1.0,"=""0001""",CSE6,,1,CEPU-CC GENERAL,Uses,,
-4,101283748D,ProE Drawing,AA,"PISTON, LOWER, PACKER SEAL TEST FIXTURE, 4.000 IN BORE",Released,,"=""0.0""",,CSED,,,CEPU-CC GENERAL,,Described By,
-4,MN-15,Instruction-Procedure,AZ,PRODUCT IDENTIFICATION,Released,,"=""0.0""",,CAAD,"FLAG 1, STAMP",,CPS_QA2,,Reference Document,
-4,CSP-70,Coating Specifications,BC,"Process Application of Friction Reducing Film, Xylan 1425 - Unified Spec",Released,,"=""0.0""",,CSAD,"ENTIRE PART, MASK THREADS AND O-RING GROOVE",,OFS_COATINGS,,Reference Document,
-4,MDS-204,Material Specification List,AG,"MDS-204, 4140/4145, 110 KSI",Released,,"=""0.0""",,CSA5,MATERIAL SPECIFICATION,,MatEng,,Reference Document,
-4,CSP-134,Coating Specifications,AH,"Phosphating, Buffing (Polishing) and Oiling of Components",Released,,"=""0.0""",,CXXD,"COAT ENTIRE PART PRIOR TO CSP-70, BUFF WHERE FLAGGED",,MatEng,,Reference Document,
-4,NDE-22,Instruction-Procedure,BA,"NDE-22; CONTINUOUS WET FLORESCENT MAGNETIC PARTICLE INSPECTION",Released,,"=""0.0""",,CPHD,"ENTIRE PART, PRIOR TO COATING",,CPS_QANDE,,Reference Document,
-3,101283756,Part SLB,AA,"PISTON, UPPER, PACKER SEAL TEST FIXTURE, 4.000 IN BORE, 4140/4145 (110)",Released,EA - Each,1.0,"=""0002""",CSE6,,2,CEPU-CC GENERAL,Uses,,
-4,101283756D,ProE Drawing,AA,"PISTON, UPPER, PACKER SEAL TEST FIXTURE, 4.000 IN BORE",Released,,"=""0.0""",,CSED,,,CEPU-CC GENERAL,,Described By,
-4,MN-15,Instruction-Procedure,AZ,PRODUCT IDENTIFICATION,Released,,"=""0.0""",,CAAD,"FLAG 1, STAMP",,CPS_QA2,,Reference Document,
-4,CSP-70,Coating Specifications,BC,"Process Application of Friction Reducing Film, Xylan 1425 - Unified Spec",Released,,"=""0.0""",,CSAD,"ENTIRE PART, MASK THREADS AND O-RING GROOVE",,OFS_COATINGS,,Reference Document,
-4,MDS-204,Material Specification List,AG,"MDS-204, 4140/4145, 110 KSI",Released,,"=""0.0""",,CSA5,MATERIAL SPECIFICATION,,MatEng,,Reference Document,
-4,CSP-134,Coating Specifications,AH,"Phosphating, Buffing (Polishing) and Oiling of Components",Released,,"=""0.0""",,CXXD,"COAT ENTIRE PART PRIOR TO CSP-70, BUFF WHERE FLAGGED",,MatEng,,Reference Document,
-4,NDE-22,Instruction-Procedure,BA,"NDE-22; CONTINUOUS WET FLORESCENT MAGNETIC PARTICLE INSPECTION",Released,,"=""0.0""",,CPHD,"ENTIRE PART, PRIOR TO COATING",,CPS_QANDE,,Reference Document,
-3,44661-929-00001,Part SLB,AF,"ROD, PACKER SEAL TEST FIXTURE, 1.000 DIA, 4130/4140/4145 (110)",Released,EA - Each,1.0,"=""0003""",CSE6,,3,CPS_COMPLETIONS,Uses,,
-4,MDS-6,Material Specification List,AP,"MDS-6,4130/4140/4145, 110 KSI YS",Released,,"=""0.0""",,CXXD,MATERIAL SPECIFICATION,,MatEng,,Reference Document,
-4,CSP-16,Coating Specifications,BG,Zinc Phosphate for Low Alloy Steel and Carbon Steel - Unified Spec,Released,,"=""0.0""",,CSAD,ENTIRE PART,,OFS_COATINGS,,Reference Document,
-4,MN-15,Instruction-Procedure,AZ,PRODUCT IDENTIFICATION,Released,,"=""0.0""",,CAAD,"FLAG 1, STAMP",,CPS_QA2,,Reference Document,
-4,44661-929,ProE Drawing,AJ,"ROD, SEAL TEST FIXTURE 7, 7-5/8, 9-5/8 AND 10-3/4",Released,,"=""0.0""",,CPH6,,,CPS_COMPLETIONS,,Described By,
-4,NDE-22,Instruction-Procedure,BA,"NDE-22; CONTINUOUS WET FLORESCENT MAGNETIC PARTICLE INSPECTION",Released,,"=""0.0""",,CPHD,ENTIRE PART,,CPS_QANDE,,Reference Document,
-3,44661-928-00001,Part SLB,AE,"NUT, SEAL TEST FIXTURE, QUANTUM & QMAX (4.000 ID), 4130/4140 (80)",Released,EA - Each,1.0,"=""0004""",!TBD,,4,CPS_COMPLETIONS,Uses,,
-4,MDS-1,Material Specification List,AJ,"MDS-1, 4130/4140/4145 80 KSI  22 HRC MAX",Released,,"=""0.0""",,CXXD,,,MatEng,,Reference Document,
-4,44661-928,ProE Drawing,AE,"NUT, SEAL TEST FIXTURE, QUANTUM & QMAX (4.000 ID)",Released,,"=""0.0""",,CPV6,,,CPS_COMPLETIONS,,Described By,
-4,CSP-16,Coating Specifications,BG,Zinc Phosphate for Low Alloy Steel and Carbon Steel - Unified Spec,Released,,"=""0.0""",,CSAD,,,OFS_COATINGS,,Reference Document,
-4,CSP-28,Coating Specifications,AM,Glass Bead Peening,Released,,"=""0.0""",,CXXD,,,MatEng,,Reference Document,
-4,MN-15,Instruction-Procedure,AZ,PRODUCT IDENTIFICATION,Released,,"=""0.0""",,CAAD,,,CPS_QA2,,Reference Document,
-3,AP870-342-00001,Part SLB,"=""00""",O-RING (70 DURO NITRILE),Released,EA - Each,2.0,"=""0005""",CPH6,,5,SITE_GENERAL,Uses,,
-4,CNMS-E1101,Elastomer and Plastic Specifications,AG,"Arctic Nitrile O-Rings,  70 DUROMETER",Released,,"=""0.0""",,CPHD,,,MatEng,,Reference Document,
-3,100522361,Screw Machine-Bolt,AB,"SCREW, SKT SET 3/8-24 X 3/8 CUP PT ALLOY STL/45H  ASME B18.3",Released,EA - Each,4.0,"=""0006""",AF85,,6,CoSeG-Mech,Uses,,
-4,100888833,Material Spec,AC,"Steel for Commercial Set Screws, ASTM F912 or ISO 898-5",Released,,"=""0.0""",,!TBD,,,OFS_MATERIALS,,Reference Document,
+Part SLB 101706021 AC: Engineering Bill of Materials,,,,,,,,,,,,,,
+, , , , , , , , , , , , ,EBOM Values,Specification Values
+Level,Name,Type,Rev,Description,State,U of M,Qty,Item Number,Product Line,General Notes,Legacy Item Number,Project,Usage,Document Usage
+1,101706021,Part SLB,AC,"7 X 4.000 QUANTUM MAX (32-35), SUPER 13CR (110), AFLAS (90-80-90), 4.937-6 STUB ACME",Released,EA - Each,,,CPE7,,,CPS_COMPLETIONS,,
+2,MN-15,Instruction-Procedure,AZ,PRODUCT IDENTIFICATION,Released,,0.0,,CAAD,STAMP AT ID MARKER,,CPS_QA2,,Reference Document
+2,100129310,Instruction-Procedure,AE,"PROCEDURE, QUANTUM MAX PACKER ASSEMBLY",Released,,0.0,,CPED,ASSEMBLY PROCEDURE,,CPS_COMPLETIONS,,Reference Document
+2,100431590D,ProE Drawing,AD,7 X 4.000 QMAX (32-35) AFLAS,Released,,0.0,,CPH6,,,CPS_COMPLETIONS,,Described By
+2,CSP-99,Coating Specifications,BB,APPLICATION OF RUST PREVENTATIVES,Released,,0.0,,CSAD,ENTIRE PART,,MatEng,,Reference Document
+2,44661-925-00001,Part SLB,AC,"4.000 IN BORE, PACKER SEAL TEST FIXTURE, 4.937-6 STUB ACME",Released,EA - Each,0.0,,CPE6,QTY. 1 NEEDED FOR FAT,,CPS_COMPLETIONS,Mfg Equipment Process,
+3,CSP-99,Coating Specifications,BB,APPLICATION OF RUST PREVENTATIVES,Released,,0.0,,CSAD,ENTIRE PART,,MatEng,,Reference Document
+3,MN-15,Instruction-Procedure,AZ,PRODUCT IDENTIFICATION,Released,,0.0,,CAAD,"FLAG 1, STAMP",,CPS_QA2,,Reference Document
+3,101286095D,ProE Drawing,AA,"4.000 IN BORE, PACKER SEAL TEST FIXTURE, 4.937-6 STUB ACME",Released,,0.0,,CSED,,,CEPU-CC GENERAL,,Described By
+3,101283748,Part SLB,AA,"PISTON, LOWER, PACKER SEAL TEST FIXTURE, 4.000 IN BORE, 4140/4145 (110)",Released,EA - Each,1,0001,CSE6,,1,CEPU-CC GENERAL,Uses,
+4,101283748D,ProE Drawing,AA,"PISTON, LOWER, PACKER SEAL TEST FIXTURE, 4.000 IN BORE",Released,,0.0,,CSED,,,CEPU-CC GENERAL,,Described By
+4,MN-15,Instruction-Procedure,AZ,PRODUCT IDENTIFICATION,Released,,0.0,,CAAD,"FLAG 1, STAMP",,CPS_QA2,,Reference Document
+4,CSP-70,Coating Specifications,BC,"Process Application of Friction Reducing Film, Xylan 1425 - Unified Spec",Released,,0.0,,CSAD,"ENTIRE PART, MASK THREADS AND O-RING GROOVE",,OFS_COATINGS,,Reference Document
+4,MDS-204,Material Specification List,AG,"MDS-204, 4140/4145, 110 KSI",Released,,0.0,,CSA5,MATERIAL SPECIFICATION,,MatEng,,Reference Document
+4,CSP-134,Coating Specifications,AH,"Phosphating, Buffing (Polishing) and Oiling of Components",Released,,0.0,,CXXD,"COAT ENTIRE PART PRIOR TO CSP-70, BUFF WHERE FLAGGED",,MatEng,,Reference Document
+4,NDE-22,Instruction-Procedure,BA,NDE-22; CONTINUOUS WET FLORESCENT MAGNETIC PARTICLE INSPECTION,Released,,0.0,,CPHD,"ENTIRE PART, PRIOR TO COATING",,CPS_QANDE,,Reference Document
+3,101283756,Part SLB,AA,"PISTON, UPPER, PACKER SEAL TEST FIXTURE, 4.000 IN BORE, 4140/4145 (110)",Released,EA - Each,1,0002,CSE6,,2,CEPU-CC GENERAL,Uses,
+4,101283756D,ProE Drawing,AA,"PISTON, UPPER, PACKER SEAL TEST FIXTURE, 4.000 IN BORE",Released,,0.0,,CSED,,,CEPU-CC GENERAL,,Described By
+4,MN-15,Instruction-Procedure,AZ,PRODUCT IDENTIFICATION,Released,,0.0,,CAAD,"FLAG 1, STAMP",,CPS_QA2,,Reference Document
+4,CSP-70,Coating Specifications,BC,"Process Application of Friction Reducing Film, Xylan 1425 - Unified Spec",Released,,0.0,,CSAD,"ENTIRE PART, MASK THREADS AND O-RING GROOVE",,OFS_COATINGS,,Reference Document
+4,MDS-204,Material Specification List,AG,"MDS-204, 4140/4145, 110 KSI",Released,,0.0,,CSA5,MATERIAL SPECIFICATION,,MatEng,,Reference Document
+4,CSP-134,Coating Specifications,AH,"Phosphating, Buffing (Polishing) and Oiling of Components",Released,,0.0,,CXXD,"COAT ENTIRE PART PRIOR TO CSP-70, BUFF WHERE FLAGGED",,MatEng,,Reference Document
+4,NDE-22,Instruction-Procedure,BA,NDE-22; CONTINUOUS WET FLORESCENT MAGNETIC PARTICLE INSPECTION,Released,,0.0,,CPHD,"ENTIRE PART, PRIOR TO COATING",,CPS_QANDE,,Reference Document
+3,44661-929-00001,Part SLB,AF,"ROD, PACKER SEAL TEST FIXTURE, 1.000 DIA, 4130/4140/4145 (110)",Released,EA - Each,1,0003,CSE6,,3,CPS_COMPLETIONS,Uses,
+4,MDS-6,Material Specification List,AP,"MDS-6,4130/4140/4145, 110 KSI YS",Released,,0.0,,CXXD,MATERIAL SPECIFICATION,,MatEng,,Reference Document
+4,CSP-16,Coating Specifications,BG,Zinc Phosphate for Low Alloy Steel and Carbon Steel - Unified Spec,Released,,0.0,,CSAD,ENTIRE PART,,OFS_COATINGS,,Reference Document
+4,MN-15,Instruction-Procedure,AZ,PRODUCT IDENTIFICATION,Released,,0.0,,CAAD,"FLAG 1, STAMP",,CPS_QA2,,Reference Document
+4,44661-929,ProE Drawing,AJ,"ROD, SEAL TEST FIXTURE 7, 7-5/8, 9-5/8 AND 10-3/4",Released,,0.0,,CPH6,,,CPS_COMPLETIONS,,Described By
+4,NDE-22,Instruction-Procedure,BA,NDE-22; CONTINUOUS WET FLORESCENT MAGNETIC PARTICLE INSPECTION,Released,,0.0,,CPHD,ENTIRE PART,,CPS_QANDE,,Reference Document
+3,44661-928-00001,Part SLB,AE,"NUT, SEAL TEST FIXTURE, QUANTUM & QMAX (4.000 ID), 4130/4140 (80)",Released,EA - Each,1,0004,!TBD,,4,CPS_COMPLETIONS,Uses,
+4,MDS-1,Material Specification List,AJ,"MDS-1, 4130/4140/4145 80 KSI  22 HRC MAX",Released,,0.0,,CXXD,,,MatEng,,Reference Document
+4,44661-928,ProE Drawing,AE,"NUT, SEAL TEST FIXTURE, QUANTUM & QMAX (4.000 ID)",Released,,0.0,,CPV6,,,CPS_COMPLETIONS,,Described By
+4,CSP-16,Coating Specifications,BG,Zinc Phosphate for Low Alloy Steel and Carbon Steel - Unified Spec,Released,,0.0,,CSAD,,,OFS_COATINGS,,Reference Document
+4,CSP-28,Coating Specifications,AM,Glass Bead Peening,Released,,0.0,,CXXD,,,MatEng,,Reference Document
+4,MN-15,Instruction-Procedure,AZ,PRODUCT IDENTIFICATION,Released,,0.0,,CAAD,,,CPS_QA2,,Reference Document
+3,AP870-342-00001,Part SLB,00,O-RING (70 DURO NITRILE),Released,EA - Each,2,0005,CPH6,,5,SITE_GENERAL,Uses,
+4,CNMS-E1101,Elastomer and Plastic Specifications,AG,"Arctic Nitrile O-Rings,  70 DUROMETER",Released,,0.0,,CPHD,,,MatEng,,Reference Document
+3,100522361,Screw Machine-Bolt,AB,"SCREW, SKT SET 3/8-24 X 3/8 CUP PT ALLOY STL/45H  ASME B18.3",Released,EA - Each,4,0006,AF85,,6,CoSeG-Mech,Uses,
+4,100888833,Material Spec,AC,"Steel for Commercial Set Screws, ASTM F912 or ISO 898-5",Released,,0.0,,!TBD,,,OFS_MATERIALS,,Reference Document
 2,100154393,Part SLB,AB,"TOOL, COLLET INSTALLATION,
-7 X 4.000 QMAX",Released,EA - Each,"=""0.0""",,CPH6,QTY. 1 NEEDED FOR FAT,,CPS_COMPLETIONS,Mfg Equipment Process,,
-3,100154393D,ProE Assembly,AB,"TOOL, COLLET INSTALLATION, 7 X 4.000 QMAX",Released,,"=""0.0""",,C40F - PACKER FG,,,CPS_COMPLETIONS,,Described By,
-3,100154393D,ProE Drawing,AB,"TOOL, COLLET INSTALLATION, 7 X 4.000 QMAX",Released,,"=""0.0""",,CPH6,,,CPS_COMPLETIONS,,Described By,
-3,MN-15,Instruction-Procedure,AZ,PRODUCT IDENTIFICATION,Released,,"=""0.0""",,CAAD,,,CPS_QA2,,Reference Document,
-3,CSP-99,Coating Specifications,BB,APPLICATION OF RUST PREVENTATIVES,Released,,"=""0.0""",,CSAD,,,MatEng,,Reference Document,
-3,100154404,Part SLB,AB,"BODY, TOOL, COLLET ASSEMBLY, 7 x 4.000 QMAX",Released,EA - Each,1.0,"=""001""",CPV6,,,CPS_COMPLETIONS,Uses,,
-4,MDS-1,Material Specification List,AJ,"MDS-1, 4130/4140/4145 80 KSI  22 HRC MAX",Released,,"=""0.0""",,CXXD,MATERIAL SPECIFICATION,,MatEng,,Reference Document,
-4,100154404D,ProE Part,AB,"BODY, TOOL, COLLET ASSEMBLY, 7 x 4.000 QMAX",Released,,"=""0.0""",,C40C - PACKER PARTS,,,CPS_COMPLETIONS,,Described By,
-4,CSP-16,Coating Specifications,BG,Zinc Phosphate for Low Alloy Steel and Carbon Steel - Unified Spec,Released,,"=""0.0""",,CSAD,COATING SPECIFICATION,,OFS_COATINGS,,Reference Document,
-4,MN-15,Instruction-Procedure,AZ,PRODUCT IDENTIFICATION,Released,,"=""0.0""",,CAAD,IDENTIFY PER,,CPS_QA2,,Reference Document,
-4,100154404D,ProE Drawing,AB,"BODY, TOOL, COLLET ASSEMBLY, 7 x 4.000 QMAX",Released,,"=""0.0""",,TE35,,,CPS_COMPLETIONS,,Described By,
-3,100154415,Part SLB,AB,"KEY, TOOL, COLLET ASSEMBLY, 7 X 4.000 QMAX",Released,EA - Each,1.0,"=""002""",CPV6,,,CPS_COMPLETIONS,Uses,,
-4,MN-15,Instruction-Procedure,AZ,PRODUCT IDENTIFICATION,Released,,"=""0.0""",,CAAD,IDENTIFY PER,,CPS_QA2,,Reference Document,
-4,100154415D,ProE Part,AB,"KEY, TOOL, COLLET ASSEMBLY, 7 X 4.000 QMAX",Released,,"=""0.0""",,C40C - PACKER PARTS,,,CPS_COMPLETIONS,,Described By,
-4,100154415D,ProE Drawing,AB,"KEY, TOOL, COLLET ASSEMBLY, 7 X 4.000 QMAX",Released,,"=""0.0""",,TE35,,,CPS_COMPLETIONS,,Described By,
-4,CSP-16,Coating Specifications,BG,Zinc Phosphate for Low Alloy Steel and Carbon Steel - Unified Spec,Released,,"=""0.0""",,CSAD,COATING SPECIFICATION,,OFS_COATINGS,,Reference Document,
-4,MDS-1,Material Specification List,AJ,"MDS-1, 4130/4140/4145 80 KSI  22 HRC MAX",Released,,"=""0.0""",,CXXD,MATERIAL SPECIFICATION,,MatEng,,Reference Document,
-3,457502000,Part SLB,AA,"PIN,COTTER 3/32 X 1 IN LG STEEL",Released,EA - Each,2.0,"=""003""",DXP6,,,CLG-DATACLEAN,Uses,,
-2,100313898,Part SLB,AA,"BAR, DRIFT, 3.995 X 18.00 L, 4130 (80)",Released,EA - Each,"=""0.0""",,CPH6,"OR EQUIVALENT DRIFT BAR, ENSURE BORE ID IS NOT SCRATCHED",,CPS_COMPLETIONS,Mfg Equipment Process,,
-3,MDS-1,Material Specification List,AJ,"MDS-1, 4130/4140/4145 80 KSI  22 HRC MAX",Released,,"=""0.0""",,CXXD,MATERIAL SPECIFICATION,,MatEng,,Reference Document,
-3,87808-700,ProE Drawing,AF,"BAR, DRIFT, GENERIC",Released,,"=""0.0""",,!TBD,,,CPS_COMPLETIONS,,Described By,
-3,CSP-86,Coating Specifications,AU,Ion Nitriding of Low Alloy and Stainless Steels,Released,,"=""0.0""",,CXXD,COAT ENTIRE LENGTH - OUTSIDE DIAMETER,,OFS_COATINGS,,Reference Document,
-3,MN-15,Instruction-Procedure,AZ,PRODUCT IDENTIFICATION,Released,,"=""0.0""",,CAAD,STAMPING PROCEDURE,,CPS_QA2,,Reference Document,
-3,103092000,Instruction-Procedure,AB,COMPLETIONS SUPPLIER REQUIREMENTS,Released,,"=""0.0""",,CXXD,,,CLG_SUPPLY_CHAIN,,Reference Document,
-2,102026416,Instruction-Procedure,AB,"CHECKLIST, ASSEMBLY, 7 X 4.000 QUANTUM MAX",Released,,"=""0.0""",,CPED,ASSEMBLY CHECKLIST & FAT,,CPS_COMPLETIONS,,Reference Document,
-2,100291874,Report Document,AE,"TEMPLATE, HYDRO TEST PLAN/REPORT FOR QUANTUM MAX PACKERS",Released,,"=""0.0""",,CPED,HYDRO TEST PLAN,,CPS_COMPLETIONS,,Reference Document,
-2,100594977,Part SLB,AC,"SLEEVE, SETTING, 7 X 4.000 QUANTUM MAX, 4130/4140/4145 (110)",Released,EA - Each,1.0,"=""001""",CPE6,,,CPS_COMPLETIONS,Uses,,
-3,100541385D,ProE Drawing,AF,"SLEEVE, SETTING, 7 X 4.000 QUANTUM MAX",Released,,"=""0.0""",,CPED,,,CPS_COMPLETIONS,,Described By,
-3,CSP-16,Coating Specifications,BG,Zinc Phosphate for Low Alloy Steel and Carbon Steel - Unified Spec,Released,,"=""0.0""",ENTIRE PART,CSAD,,,OFS_COATINGS,,Reference Document,
-3,MN-15,Instruction-Procedure,AZ,PRODUCT IDENTIFICATION,Released,,"=""0.0""","FLAG 1, STAMP",CAAD,,,CPS_QA2,,Reference Document,
-3,CSP-28,Coating Specifications,AM,Glass Bead Peening,Released,,"=""0.0""","FLAG 28, STUB ACME THREAD, OVERSPRAY ALLOWED",CXXD,,,MatEng,,Reference Document,
-3,MDS-6,Material Specification List,AP,"MDS-6,4130/4140/4145, 110 KSI YS",Released,,"=""0.0""",MATERIAL SPECIFICATION,CXXD,,,MatEng,,Reference Document,
-2,101119467,Part SLB,AB,"SUB, UPPER MANDREL, 7 X 4.000 QUANTUM MAX, SUPER 13CR (110)",Released,EA - Each,1.0,"=""002""",CPE6,,,CPS_COMPLETIONS,Uses,,
-3,CSP-70,Coating Specifications,BC,"Process Application of Friction Reducing Film, Xylan 1425 - Unified Spec",Released,,"=""0.0""",,CSAD,"FLAG 70, STUB ACME AND LEFT HAND SQUARE THREADS WHERE FLAGGED, MASK 63 FINISH SURFACE, OVERSPRAY ALLOWED ELSEWHERE",,OFS_COATINGS,,Reference Document,
-3,MDS-175,Material Specification List,AE,"Super 13Cr, 110 Min YS",Released,,"=""0.0""",,CXXD,MATERIAL SPECIFICATION,,MatEng,,Reference Document,
-3,100541391D,ProE Drawing,AC,"SUB, UPPER MANDREL, 7 X 4.000 QUANTUM MAX",Released,,"=""0.0""",,CPED,,,CPS_COMPLETIONS,,Described By,
-3,MN-15,Instruction-Procedure,AZ,PRODUCT IDENTIFICATION,Released,,"=""0.0""",,CAAD,"FLAG 1, STAMP",,CPS_QA2,,Reference Document,
-3,CSP-99,Coating Specifications,BB,APPLICATION OF RUST PREVENTATIVES,Released,,"=""0.0""",,CSAD,COAT PER CSP-99 ON THE SEAL BORES DEPENDING ON THE ENVIRONMENTAL STORAGE DURATION AND SHIPPING CONDITIONS. THE COATING IS AT THE DISCRETION OF THE RESPECTIVE MANUFACTURING CENTER ENSURING THE PART/ASSEMBLY IS NOT DAMAGED DUE TO NOT COATING THE SEAL BORES WITH CSP-99,,MatEng,,Reference Document,
-2,101119468,Part SLB,AD,"MANDREL, 7 X 4.000 QUANTUM MAX (26-29), SUPER 13CR (110)",Released,EA - Each,1.0,"=""003""",CPE6,,,CPS_COMPLETIONS,Uses,,
-3,MN-15,Instruction-Procedure,AZ,PRODUCT IDENTIFICATION,Released,,"=""0.0""",,CAAD,"FLAG 1, STAMP",,CPS_QA2,,Reference Document,
-3,MDS-175,Material Specification List,AE,"Super 13Cr, 110 Min YS",Released,,"=""0.0""",,CXXD,MATERIAL SPECIFICATION,,MatEng,,Reference Document,
-3,100249433D,ProE Drawing,AK,"MANDREL, 7 X 4.000 QUANTUM MAX",Released,,"=""0.0""",,CPED,,,CPS_COMPLETIONS,,Described By,
-3,CSP-28,Coating Specifications,AM,Glass Bead Peening,Released,,"=""0.0""",,CXXD,"FLAG 28, STUB ACME AND 4.541 SPECIAL BUTTRESS THREADS WHERE FLAGGED, NO OVERSPRAY ALLOWED",,MatEng,,Reference Document,
-3,100313898,Part SLB,AA,"BAR, DRIFT, 3.995 X 18.00 L, 4130 (80)",Released,EA - Each,"=""0.0""",,CPH6,"OR EQUIVALENT DRIFT BAR, ENSURE BORE ID IS NOT SCRATCHED",,CPS_COMPLETIONS,Mfg Equipment Process,,
-4,MDS-1,Material Specification List,AJ,"MDS-1, 4130/4140/4145 80 KSI  22 HRC MAX",Released,,"=""0.0""",,CXXD,MATERIAL SPECIFICATION,,MatEng,,Reference Document,
-4,87808-700,ProE Drawing,AF,"BAR, DRIFT, GENERIC",Released,,"=""0.0""",,!TBD,,,CPS_COMPLETIONS,,Described By,
-4,CSP-86,Coating Specifications,AU,Ion Nitriding of Low Alloy and Stainless Steels,Released,,"=""0.0""",,CXXD,COAT ENTIRE LENGTH - OUTSIDE DIAMETER,,OFS_COATINGS,,Reference Document,
-4,MN-15,Instruction-Procedure,AZ,PRODUCT IDENTIFICATION,Released,,"=""0.0""",,CAAD,STAMPING PROCEDURE,,CPS_QA2,,Reference Document,
-4,103092000,Instruction-Procedure,AB,COMPLETIONS SUPPLIER REQUIREMENTS,Released,,"=""0.0""",,CXXD,,,CLG_SUPPLY_CHAIN,,Reference Document,
-3,CSP-99,Coating Specifications,BB,APPLICATION OF RUST PREVENTATIVES,Released,,"=""0.0""",,CSAD,COAT PER CSP-99 ON THE SEAL BORES DEPENDING ON THE ENVIRONMENTAL STORAGE DURATION AND SHIPPING CONDITIONS. THE COATING IS AT THE DISCRETION OF THE RESPECTIVE MANUFACTURING CENTER ENSURING THE PART/ASSEMBLY IS NOT DAMAGED DUE TO NOT COATING THE SEAL BORES WITH CSP-99,,MatEng,,Reference Document,
-2,100598870,Part SLB,AA,"KEY, TORQUE, QMAX, 4140(110)",Released,EA - Each,6.0,"=""004""",CPE6,,,CPS_COMPLETIONS,Uses,,
-3,100598870D,ProE Drawing,AA,"KEY, TORQUE, QMAX",Released,,"=""0.0""",,CPE6,,,CPS_COMPLETIONS,,Described By,
-3,MDS-204,Material Specification List,AG,"MDS-204, 4140/4145, 110 KSI",Released,,"=""0.0""",,CSA5,MATERIAL FOR MACHINING,,MatEng,,Reference Document,
-3,MN-15,Instruction-Procedure,AZ,PRODUCT IDENTIFICATION,Released,,"=""0.0""",,CAAD,,,CPS_QA2,,Reference Document,
-3,CSP-16,Coating Specifications,BG,Zinc Phosphate for Low Alloy Steel and Carbon Steel - Unified Spec,Released,,"=""0.0""",,CSAD,,,OFS_COATINGS,,Reference Document,
-3,MDS-116,Material Specification List,AB,"MDS-116, 4140 CAST",Released,,"=""0.0""",,CPH6,MATERIAL FOR CASTING,,MatEng,,Reference Document,
-2,44000-114-00001,Part SLB,AA,"SCREW, SLOTTED HEADLESS SHEAR, DOG POINT, 1/2-20 UNF-2A X .450 LONG, 675 Mn BRONZE (30), SHEAR VALUE (LBF) = 5000+/-500",Released,EA - Each,6.0,"=""005""",CPE6,SHEAR SCREW,,CPS_COMPLETIONS,Uses,,
-3,44000-114,ProE Drawing,AH,"SCREW, SLOTTED HEADLESS SHEAR, DOG POINT, 1/2-20 UNF-2A X .450 LONG",Released,,"=""0.0""",,CPE6,,,CPS_COMPLETIONS,,Described By,
-3,CSP-142,General Spec,AM,CSP-142: SHEAR TEST PROCEDURE TO MANUFACTURE SHEAR SCREWS AND PINS,Released,,"=""0.0""",,CPHD,SHEAR TESTING PROCEDURE,,CPS_COMPLETIONS,,Reference Document,
-3,100120488,Material Specification List,AC,"MDS-239, BRONZE ALLOY 675",Released,,"=""0.0""",,GC26,MATERIAL SPECIFICATION,,CPS_QA1,,Reference Document,
-3,MN-15,Instruction-Procedure,AZ,PRODUCT IDENTIFICATION,Released,,"=""0.0""",,CAAD,BAG & TAG,,CPS_QA2,,Reference Document,
-3,103092000,Instruction-Procedure,AB,COMPLETIONS SUPPLIER REQUIREMENTS,Released,,"=""0.0""",,CXXD,,,CLG_SUPPLY_CHAIN,,Reference Document,
-2,44000-011-00001,Part SLB,"=""01""","HEXAGON SOCKET SET SCREW, 1/4""-20 X 5/16"", CUP POINT",Released,EA - Each,4.0,"=""006""",CPF5,,,CAMCO_LOAD,Uses,,
-3,44000E-011-00001,Special Function Documents,AA,ENGINEERING NOTES FOR 44000-011-00001,Released,,"=""0.0""",,CSA5,HIDDEN DATA,,CAMCO_LOAD,,Reference Document,
-3,44000-011,Document SLB,AA,"HEXAGON SOCKET SET SCREW, 1/4""-20 X 5/16"", CUP POINT",Released,,"=""0.0""",,!TBD,,,ACG_SC_HARDWARE,,Described By,
-2,100155185,Part SLB,AB,"WASHER, RATCHET RETAINER, 7 X 4.000 QMAX, 4140 (110)",Released,EA - Each,2.0,"=""007""",CPA6,,,CPS_COMPLETIONS,Uses,,
-3,MN-15,Instruction-Procedure,AZ,PRODUCT IDENTIFICATION,Released,,"=""0.0""",,CAAD,IDENTIFY PER,,CPS_QA2,,Reference Document,
-3,MDS-204,Material Specification List,AG,"MDS-204, 4140/4145, 110 KSI",Released,,"=""0.0""",,CSA5,MATERIAL SPECIFICATION,,MatEng,,Reference Document,
-3,100155185D,ProE Drawing,AB,"WASHER, RATCHET RETAINER, 7 X 4.000 QMAX",Released,,"=""0.0""",,CPH6,,,CPS_COMPLETIONS,,Described By,
-3,CSP-16,Coating Specifications,BG,Zinc Phosphate for Low Alloy Steel and Carbon Steel - Unified Spec,Released,,"=""0.0""",,CSAD,COATING SPECIFICATION,,OFS_COATINGS,,Reference Document,
-2,100097068,Part SLB,AF,"RING, RATCHET, 7 X 4.000 QUANTUM MAX, 4140/4145 (110)",Released,EA - Each,2.0,"=""008""",CPE6,,,CPS_COMPLETIONS,Uses,,
-3,CHTS-24.40-01,Heat Treat Specifications,AL,"Carbon and Low Alloy Steels, Pre-Heat Treated, Stress Relieve For Machining",Released,,"=""0.0""",,CXXD,STRESS RELIEVE,,MatEng,,Reference Document,
-3,CSP-16,Coating Specifications,BG,Zinc Phosphate for Low Alloy Steel and Carbon Steel - Unified Spec,Released,,"=""0.0""",,CSAD,ENTIRE PART,,OFS_COATINGS,,Reference Document,
-3,100097068D,ProE Drawing,AF,"RING, RATCHET, 7 X 4.000 QUANTUM MAX",Released,,"=""0.0""",,CPED,,,CPS_COMPLETIONS,,Described By,
-3,MN-15,Instruction-Procedure,AZ,PRODUCT IDENTIFICATION,Released,,"=""0.0""",,CAAD,"FLAG 1, STAMP",,CPS_QA2,,Reference Document,
-3,MDS-204,Material Specification List,AG,"MDS-204, 4140/4145, 110 KSI",Released,,"=""0.0""",,CSA5,MATERIAL SPECIFICATION,,MatEng,,Reference Document,
-3,100251196,Part SLB,AA,"LOCK RING GAGE MANDREL (4.619 O.D., L80)",Released,EA - Each,"=""0.0""",3,CPH6,TO TEST THE CLAMPING FORCE,,CPS_COMPLETIONS,Mfg Equipment Process,,
-4,MDS-4,Material Specification List,AH,"MDS-4, 4130/4140/4145, L80 TYPE 1 EQUIVALENT",Released,,"=""0.0""",,CXXD,,,MatEng,,Reference Document,
-4,AP927-322,ProE Drawing,AB,LOCK RING GAGE MANDREL,Released,,"=""0.0""",,CPED,,,CPS_COMPLETIONS,,Described By,
-4,CSP-16,Coating Specifications,BG,Zinc Phosphate for Low Alloy Steel and Carbon Steel - Unified Spec,Released,,"=""0.0""",,CSAD,,,OFS_COATINGS,,Reference Document,
-4,MN-15,Instruction-Procedure,AZ,PRODUCT IDENTIFICATION,Released,,"=""0.0""",,CAAD,,,CPS_QA2,,Reference Document,
-3,100251194,Part SLB,AB,"LOCK RING HEAT TREAT MANDREL (4.540 O.D., L80)",Released,EA - Each,"=""0.0""",4,CPH6,FOR HEAT TREATING,,CPS_COMPLETIONS,Mfg Equipment Process,,
-4,CSP-16,Coating Specifications,BG,Zinc Phosphate for Low Alloy Steel and Carbon Steel - Unified Spec,Released,,"=""0.0""",,CSAD,ENTIRE PART,,OFS_COATINGS,,Reference Document,
-4,AP927-323,ProE Drawing,AB,LOCK RING HEAT TREAT MANDREL,Released,,"=""0.0""",,CPE6,,,CPS_COMPLETIONS,,Described By,
-4,MDS-4,Material Specification List,AH,"MDS-4, 4130/4140/4145, L80 TYPE 1 EQUIVALENT",Released,,"=""0.0""",,CXXD,MATERIAL SPECIFICATION,,MatEng,,Reference Document,
-4,MN-15,Instruction-Procedure,AZ,PRODUCT IDENTIFICATION,Released,,"=""0.0""",,CAAD,"FLAG 1, STAMP",,CPS_QA2,,Reference Document,
-2,100431906,Part SLB,AA,"RING, UPPER GAUGE, 7 X 4.000 QMAX (32-35), 4130/4140 (80)",Released,EA - Each,1.0,"=""009""",CPA6,,,CPS_COMPLETIONS,Uses,,
-3,100431906D,ProE Drawing,AA,"RING, UPPER GAUGE, 7 X 4.000 QMAX (32-35)",Released,,"=""0.0""",,CPH6,,,CPS_COMPLETIONS,,Described By,
-3,MN-15,Instruction-Procedure,AZ,PRODUCT IDENTIFICATION,Released,,"=""0.0""",,CAAD,,,CPS_QA2,,Reference Document,
-3,MDS-1,Material Specification List,AJ,"MDS-1, 4130/4140/4145 80 KSI  22 HRC MAX",Released,,"=""0.0""",,CXXD,,,MatEng,,Reference Document,
-3,CSP-16,Coating Specifications,BG,Zinc Phosphate for Low Alloy Steel and Carbon Steel - Unified Spec,Released,,"=""0.0""",,CSAD,,,OFS_COATINGS,,Reference Document,
-2,100166843,Part SLB,AB,"STACK, ELEMENT ARRAY, 7 (32-35), AFLAS (90-80-90)",Released,EA - Each,1.0,"=""010""",CPA6,,,CPS_COMPLETIONS,Uses,,
-3,MN-15,Instruction-Procedure,AZ,PRODUCT IDENTIFICATION,Released,,"=""0.0""",,CAAD,,,CPS_QA2,,Reference Document,
-3,100166815D,ProE Drawing,AB,"STACK, ELEMENT ARRAY, 7 (32-35 PPF)",Released,,"=""0.0""",,CPHE,,,CPS_COMPLETIONS,,Described By,
-3,100041551,Part SLB,AG,"RING, END ELEMENT, FOLD BACK, 7 (32-35), 1015-1018 (35)",Released,EA - Each,2.0,"=""0001""",CPE6,,"=""001""",CPS_COMPLETIONS,Uses,,
-4,CSP-16,Coating Specifications,BG,Zinc Phosphate for Low Alloy Steel and Carbon Steel - Unified Spec,Released,,"=""0.0""",,CSAD,ENTIRE PART,,OFS_COATINGS,,Reference Document,
-4,CSP-28,Coating Specifications,AM,Glass Bead Peening,Released,,"=""0.0""",,CXXD,OPTIONAL IF SCALING OCCURS,,MatEng,,Reference Document,
-4,100041551D,ProE Drawing,AG,"RING, END ELEMENT, FOLD BACK, 7 (32-35)",Released,,"=""0.0""",,CPED,,,CPS_COMPLETIONS,,Described By,
-4,100832209,Certification Record,AD,GENERIC FOLDBACK RING INSPECTION SHEET,Released,,"=""0.0""",,CPHD,INSPECTION SHEET ,,WCP_BEL_CMS,,Reference Document,
-4,MN-15,Instruction-Procedure,AZ,PRODUCT IDENTIFICATION,Released,,"=""0.0""",,CAAD,BAG & TAG,,CPS_QA2,,Reference Document,
-4,100196655,Material Specification List,AA,"MDS-254, 1015-1018 FOR FOLD BACK RINGS ONLY",Released,,"=""0.0""",,DXG1,MATERIAL SPECIFICATION,,MatEng,,Reference Document,
-3,100478836,Part SLB,AA,"ELEMENT, END, 7 (32-35), AFLAS, (90 DURO), MOLDED",Released,EA - Each,2.0,"=""0002""",CPA6,,"=""002""",CPS_COMPLETIONS,Uses,,
-4,100041556D,ProE Drawing,AF,"ELEMENT, END, 7 (32-35)",Released,,"=""0.0""",,TE35,,,CPS_COMPLETIONS,,Described By,
-4,CNMS-E3502,Elastomer and Plastic Specifications,AB,"CNMS E-3502:   AFLAS FLUOROELASTOMER PACKER ELEMENTS, HIGH HARDNESS",Released,,"=""0.0""",,DXG1,,,CPS_QA1,,Reference Document,
-3,100478838,Part SLB,AA,"ELEMENT, CENTER, 7 (32-35), AFLAS, (80 DURO), MOLDED",Released,EA - Each,1.0,"=""0003""",CPA6,,"=""003""",CPS_COMPLETIONS,Uses,,
-4,100054377D,ProE Drawing,AF,"ELEMENT, CENTER, 7 (32-35)",Released,,"=""0.0""",,TE35,,,CPS_COMPLETIONS,,Described By,
-4,CNMS-E3402,Elastomer and Plastic Specifications,AA,"AFLAS FLUOROELASTOMER (RUBBER) PACKER ELEMENTS, MEDIUM HARDNESS",Released,,"=""0.0""",,DXG1,,,CPS_QA1,,Reference Document,
-3,100036179,Part SLB,AB,"RING, BACKUP, 7IN, XHP, PEEK",Released,EA - Each,2.0,"=""0004""",CPA5,,"=""004""",CPS_COMPLETIONS,Uses,,
-4,100036179D,ProE Drawing,AB,"RING, BACKUP, 7IN, XHP",Released,,"=""0.0""",,TE35,,,CPS_COMPLETIONS,,Described By,
-4,MN-15,Instruction-Procedure,AZ,PRODUCT IDENTIFICATION,Released,,"=""0.0""",,CAAD,,,CPS_QA2,,Reference Document,
-4,CNMS-P4000,Elastomer and Plastic Specifications,AY,Glass Filled PEEK (Polyetheretherketone Polymer),Released,,"=""0.0""",,CPHD,,,MatEng,,Reference Document,
-4,103092000,Instruction-Procedure,AB,COMPLETIONS SUPPLIER REQUIREMENTS,Released,,"=""0.0""",,CXXD,,,CLG_SUPPLY_CHAIN,,Reference Document,
-2,100431927,Part SLB,AA,"RING, LOWER GAUGE, 7 X 4.000 QMAX (32-35), 4130/4140 (80)",Released,EA - Each,1.0,"=""011""",CPA6,,,CPS_COMPLETIONS,Uses,,
-3,100431927D,ProE Drawing,AA,"RING, LOWER GAUGE, 7 X 4.000 QMAX (32-35)",Released,,"=""0.0""",,CPH6,,,CPS_COMPLETIONS,,Described By,
-3,MN-15,Instruction-Procedure,AZ,PRODUCT IDENTIFICATION,Released,,"=""0.0""",,CAAD,,,CPS_QA2,,Reference Document,
-3,CSP-16,Coating Specifications,BG,Zinc Phosphate for Low Alloy Steel and Carbon Steel - Unified Spec,Released,,"=""0.0""",,CSAD,,,OFS_COATINGS,,Reference Document,
-3,MDS-1,Material Specification List,AJ,"MDS-1, 4130/4140/4145 80 KSI  22 HRC MAX",Released,,"=""0.0""",,CXXD,,,MatEng,,Reference Document,
-2,100147544,Part SLB,AG,"CONE, UPPER, 7 X 4.000 QUANTUM MAX (32-35), 41XX (110)",Released,EA - Each,1.0,"=""012""",CPE6,,,CPS_COMPLETIONS,Uses,,
-3,MDS-204,Material Specification List,AG,"MDS-204, 4140/4145, 110 KSI",Released,,"=""0.0""",,CSA5,MATERIAL SPECIFICATION,,MatEng,,Reference Document,
-3,MN-15,Instruction-Procedure,AZ,PRODUCT IDENTIFICATION,Released,,"=""0.0""",,CAAD,"FLAG 1, STAMP",,CPS_QA2,,Reference Document,
-3,CSP-28,Coating Specifications,AM,Glass Bead Peening,Released,,"=""0.0""",,CXXD,"FLAG 28, STUB ACME THREADS, OVERSPRAY ALLOWED",,MatEng,,Reference Document,
-3,CSP-16,Coating Specifications,BG,Zinc Phosphate for Low Alloy Steel and Carbon Steel - Unified Spec,Released,,"=""0.0""",,CSAD,ENTIRE PART,,OFS_COATINGS,,Reference Document,
-3,100147544D,ProE Drawing,AF,"CONE, UPPER, 7 X 4.000 QUANTUM MAX (32-35)",Released,,"=""0.0""",,CPED,,,CPS_COMPLETIONS,,Described By,
-2,101088399,Part SLB,AA,"SCREW, SHEAR, BARREL SLIP, 1/4-28 UNF-2A X .400, 4130/4140 (80), SHEAR VALUE 2,375 +/- 375 LBS",Released,EA - Each,8.0,"=""013""",CPH6,,,CPS_COMPLETIONS,Uses,,
-3,CSP-142,General Spec,AM,CSP-142: SHEAR TEST PROCEDURE TO MANUFACTURE SHEAR SCREWS AND PINS,Released,,"=""0.0""",,CPHD,SHEAR TEST,,CPS_COMPLETIONS,,Reference Document,
-3,69110-020,ProE Drawing,BA,"SCREW, SHEAR, BARREL SLIP, 1/4-28 UNF-2A",Released,,"=""0.0""",,CPHD,,,CPS_COMPLETIONS,,Described By,
-3,MDS-1,Material Specification List,AJ,"MDS-1, 4130/4140/4145 80 KSI  22 HRC MAX",Released,,"=""0.0""",,CXXD,MATERIAL SPECIFICATION,,MatEng,,Reference Document,
-3,MN-15,Instruction-Procedure,AZ,PRODUCT IDENTIFICATION,Released,,"=""0.0""",,CAAD,TAG & BAG,,CPS_QA2,,Reference Document,
-3,CSP-16,Coating Specifications,BG,Zinc Phosphate for Low Alloy Steel and Carbon Steel - Unified Spec,Released,,"=""0.0""",,CSAD,ENTIRE PART,,OFS_COATINGS,,Reference Document,
-2,100151078,Part SLB,AM,"SLIP, BARREL, 7 X 4.000 QUANTUM MAX (32-35), 4340 (125)",Released,EA - Each,1.0,"=""014""",CPE6,,,CPS_COMPLETIONS,Uses,,
-3,CSP-86,Coating Specifications,AU,Ion Nitriding of Low Alloy and Stainless Steels,Released,,"=""0.0""",,CXXD,"APPLY TO TEETH SURFACES ONLY, MASK ALL REMAINING SURFACES",,OFS_COATINGS,,Reference Document,
-3,100151078D,ProE Drawing,AK,"SLIP, BARREL, 7 X 4.000 QUANTUM MAX (32-35)",Released,,"=""0.0""",,CPED,,,CPS_COMPLETIONS,,Described By,
-3,CSP-16,Coating Specifications,BG,Zinc Phosphate for Low Alloy Steel and Carbon Steel - Unified Spec,Released,,"=""0.0""",,CSAD,"ENTIRE PART, LEAVE TEETH SHARP DURING BEAD BLASTING FOR PARKERIZING",,OFS_COATINGS,,Reference Document,
-3,NDE-22,Instruction-Procedure,BA,"NDE-22; CONTINUOUS WET FLORESCENT MAGNETIC PARTICLE INSPECTION",Released,,"=""0.0""",,CPHD,AFTER MILLING OF SLOTS,,CPS_QANDE,,Reference Document,
-3,MDS-214,Material Specification List,AB,"MDS-214, 4340, 125 KSI MIN YS",Released,,"=""0.0""",,CPH6,MATERIAL SPECIFICATION,,MatEng,,Reference Document,
-3,MN-15,Instruction-Procedure,AZ,PRODUCT IDENTIFICATION,Released,,"=""0.0""",,CAAD,"FLAG 1, STAMP",,CPS_QA2,,Reference Document,
-3,102707696,Instruction-Procedure,AA,BARREL SLIP MANUFACTURING PROCESS MAP,Released,,"=""0.0""",,CPVD,MANUFACTURE PROCESS MAP,,CPS_COMPLETIONS,,Reference Document,
-2,100957754,Part SLB,AB,"SCREW, SHEAR, BARREL SLIP, 10-32 UNF-2A X .385, 4130/4140/4145 (80), SHEAR VALUE 1,250 +/- 250 LBS",Released,EA - Each,8.0,"=""015""",CPH6,,,CPS_COMPLETIONS,Uses,,
-3,69162-011,ProE Drawing,AW,"SCREW, SHEAR, BARREL SLIP, 10-32 UNF-2A",Released,,"=""0.0""",,CPHD,,,CPS_COMPLETIONS,,Described By,
-3,CSP-142,General Spec,AM,CSP-142: SHEAR TEST PROCEDURE TO MANUFACTURE SHEAR SCREWS AND PINS,Released,,"=""0.0""",,CPHD,SHEAR TEST,,CPS_COMPLETIONS,,Reference Document,
-3,CSP-16,Coating Specifications,BG,Zinc Phosphate for Low Alloy Steel and Carbon Steel - Unified Spec,Released,,"=""0.0""",,CSAD,ENTIRE PART,,OFS_COATINGS,,Reference Document,
-3,MDS-1,Material Specification List,AJ,"MDS-1, 4130/4140/4145 80 KSI  22 HRC MAX",Released,,"=""0.0""",,CXXD,MATERIAL SPECIFICATION,,MatEng,,Reference Document,
-3,MN-15,Instruction-Procedure,AZ,PRODUCT IDENTIFICATION,Released,,"=""0.0""",,CAAD,BAG AND TAG,,CPS_QA2,,Reference Document,
-2,100147559,Part SLB,AD,"CONE, LOWER, 7 X 4.000 QMAX (32-35), 41XX (110)",Released,EA - Each,1.0,"=""016""",CPA6,,,CPS_COMPLETIONS,Uses,,
-3,CSP-28,Coating Specifications,AM,Glass Bead Peening,Released,,"=""0.0""",,CXXD,"FLAG 28,  STUB ACME THREAD, NO OVERSPRAY ALLOWED",,MatEng,,Reference Document,
-3,MDS-204,Material Specification List,AG,"MDS-204, 4140/4145, 110 KSI",Released,,"=""0.0""",,CSA5,MATERIAL SPECIFICATION,,MatEng,,Reference Document,
-3,CSP-16,Coating Specifications,BG,Zinc Phosphate for Low Alloy Steel and Carbon Steel - Unified Spec,Released,,"=""0.0""",,CSAD,ENTIRE PART,,OFS_COATINGS,,Reference Document,
-3,100147559D,ProE Drawing,AD,"CONE, LOWER, 7 X 4.000 QMAX (32-35)",Released,,"=""0.0""",,CPHD,,,CPS_COMPLETIONS,,Described By,
-3,MN-15,Instruction-Procedure,AZ,PRODUCT IDENTIFICATION,Released,,"=""0.0""",,CAAD,"FLAG 1, STAMP",,CPS_QA2,,Reference Document,
-2,101119469,Part SLB,AB,"CONNECTOR, TAIL HOUSING, 7 X 4.000 QUANTUM MAX, SUPER 13CR (110)",Released,EA - Each,1.0,"=""017""",CPE6,,,CPS_COMPLETIONS,Uses,,
-3,MN-15,Instruction-Procedure,AZ,PRODUCT IDENTIFICATION,Released,,"=""0.0""",,CAAD,"FLAG 1, STAMP",,CPS_QA2,,Reference Document,
-3,CSP-70,Coating Specifications,BC,"Process Application of Friction Reducing Film, Xylan 1425 - Unified Spec",Released,,"=""0.0""",,CSAD,"FLAG 70, STUB ACME THREADS & 5.1175 ID SURFACES, OVERSPRAY ALLOWED.",,OFS_COATINGS,,Reference Document,
-3,MDS-175,Material Specification List,AE,"Super 13Cr, 110 Min YS",Released,,"=""0.0""",,CXXD,MATERIAL SPECIFICATION,,MatEng,,Reference Document,
-3,100249432D,ProE Drawing,AF,"CONNECTOR, TAIL HOUSING, 7 X 4.000 QUANTUM MAX",Released,,"=""0.0""",,CPAD,,,CPS_COMPLETIONS,,Described By,
-2,100315553,Part SLB,AA,"BACK-UP RING, 5.115 BORE, CONTOURED, O-RING #351",Released,EA - Each,4.0,"=""018""",CPA6,,,CPS_COMPLETIONS,Uses,,
-3,CNMS-P4000,Elastomer and Plastic Specifications,AY,Glass Filled PEEK (Polyetheretherketone Polymer),Released,,"=""0.0""",,CPHD,,,MatEng,,Reference Document,
-3,18929-999,ProE Drawing,AK,CONTOURED BACK-UP RING (BORE SEAL),Released,,"=""0.0""",,!TBD,,,MatEng,,Described By,
-2,16965-351-07000,Part SLB,"=""00""",O-RING #351,Released,EA - Each,2.0,"=""019""",5999,,,CAMCO_LOAD,Uses,,
-3,16965E-351-07000,Special Function Documents,AA,ENGINEERING NOTES FOR 16965-351-07000,Released,,"=""0.0""",,CPH6,HIDDEN DATA,,CAMCO_LOAD,,Reference Document,
-3,CNMS-E3100,Elastomer and Plastic Specifications,AL,"O-Ring, Aflas, 90 Durometer",Released,,"=""0.0""",,CPHD,MATERIAL SPECIFICATION,,MatEng,,Reference Document,
-3,16965-351,Document SLB,-F,O-RING #351,Released,,"=""0.0""",,CPHE,,,CAMCO_LOAD,,Described By,
-2,101119470,Part SLB,AA,"COLLET, 7 X 4.000 QUANTUM MAX, SUPER 13CR (110)",Released,EA - Each,1.0,"=""020""",CPE6,,,CPS_COMPLETIONS,Uses,,
-3,MN-15,Instruction-Procedure,AZ,PRODUCT IDENTIFICATION,Released,,"=""0.0""",,CAAD,"FLAG 1, STAMP",,CPS_QA2,,Reference Document,
-3,100249434D,ProE Drawing,AF,"COLLET, 7 X 4.000 QUANTUM MAX",Released,,"=""0.0""",,CPED,,,CPS_COMPLETIONS,,Described By,
-3,MDS-175,Material Specification List,AE,"Super 13Cr, 110 Min YS",Released,,"=""0.0""",,CXXD,MATERIAL SPECIFICATION,,MatEng,,Reference Document,
-3,CSP-70,Coating Specifications,BC,"Process Application of Friction Reducing Film, Xylan 1425 - Unified Spec",Released,,"=""0.0""",,CSAD,"FLAG 70, ENTIRE OD AND BUTTRESS THREADS, OVERSPRAY ALLOWED",,OFS_COATINGS,,Reference Document,
-2,101119471,Part SLB,AB,"SLEEVE, RELEASE, 7 X 4.000 QUANTUM MAX, SUPER 13CR (110)",Released,EA - Each,1.0,"=""022""",CPE6,,,CPS_COMPLETIONS,Uses,,
-3,MN-15,Instruction-Procedure,AZ,PRODUCT IDENTIFICATION,Released,,"=""0.0""",,CAAD,"FLAG 1, STAMP",,CPS_QA2,,Reference Document,
-3,100249435D,ProE Drawing,AE,"SLEEVE, RELEASE, 7 X 4.000 QUANTUM MAX",Released,,"=""0.0""",,CPAD,,,CPS_COMPLETIONS,,Described By,
-3,MDS-175,Material Specification List,AE,"Super 13Cr, 110 Min YS",Released,,"=""0.0""",,CXXD,MATERIAL SPECIFICATION,,MatEng,,Reference Document,
-3,CSP-70,Coating Specifications,BC,"Process Application of Friction Reducing Film, Xylan 1425 - Unified Spec",Released,,"=""0.0""",,CSAD,COAT ENTIRE PART,,OFS_COATINGS,,Reference Document,
-2,AP100-029-00001,Part SLB,AF,"SCREW, SHEAR, 5/16-24 UNF-2A X .312 LONG, 675 Mn BRONZE (60), SHEAR VALUE (LBS) = 2000",Released,EA - Each,10.0,"=""023""",CPH6,SHEAR SCREW,,CPS_COMPLETIONS,Uses,,
-3,CSP-142,General Spec,AM,CSP-142: SHEAR TEST PROCEDURE TO MANUFACTURE SHEAR SCREWS AND PINS,Released,,"=""0.0""",,CPHD,SHEAR SCREW AND SHEAR PIN MANUFACTURE & TESTING REQUIREMENTS,,CPS_COMPLETIONS,,Reference Document,
-3,100120488,Material Specification List,AC,"MDS-239, BRONZE ALLOY 675",Released,,"=""0.0""",,GC26,MATERIAL SPECIFICATION,,CPS_QA1,,Reference Document,
-3,MN-15,Instruction-Procedure,AZ,PRODUCT IDENTIFICATION,Released,,"=""0.0""",,CAAD,BAG AND TAG,,CPS_QA2,,Reference Document,
-3,AP100-029,ProE Drawing,AH,"SCREW, SHEAR, 5/16-24 UNF-2A X .312 LONG",Released,,"=""0.0""",,CPHD,,,CPS_COMPLETIONS,,Described By,
-2,100147596,Part,AB,"RING, BOTTOM GAUGE, 7 X 4.000 QMAX (32-35), 4130/4140 (80)",Released,EA - Each,1.0,"=""024""",CPA6,,,CPS_COMPLETIONS,Uses,,
-3,MDS-1,Material Specification List,AJ,"MDS-1, 4130/4140/4145 80 KSI  22 HRC MAX",Released,,"=""0.0""",,CXXD,,,MatEng,,Reference Document,
-3,100147596D,ProE Drawing,AB,"RING, BOTTOM GAUGE, 7  X 4.000 QMAX (32-35) ",Released,,"=""0.0""",,CPH6,,,CPS_COMPLETIONS,,Described By,
-3,CSP-16,Coating Specifications,BG,Zinc Phosphate for Low Alloy Steel and Carbon Steel - Unified Spec,Released,,"=""0.0""",,CSAD,,,OFS_COATINGS,,Reference Document,
-3,MN-15,Instruction-Procedure,AZ,PRODUCT IDENTIFICATION,Released,,"=""0.0""",,CAAD,,,CPS_QA2,,Reference Document,
-2,101119472,Part SLB,AD,"SUB, BOTTOM, 7 X 4.000 QUANTUM MAX, SUPER 13CR (110)",Released,EA - Each,1.0,"=""026""",CPE6,,,CPS_COMPLETIONS,Uses,,
-3,MN-15,Instruction-Procedure,AZ,PRODUCT IDENTIFICATION,Released,,"=""0.0""",,CAAD,"FLAG 1, STAMP",,CPS_QA2,,Reference Document,
-3,CSP-70,Coating Specifications,BC,"Process Application of Friction Reducing Film, Xylan 1425 - Unified Spec",Released,,"=""0.0""",,CSAD,"FLAG 70, 5.250-8 STUB ACME THREAD AND 3.250 LENGTH DIMENSION, MASK O-RING GROOVES AND 63 FINISH SURFACES, OVERSPRAY ALLOWED ELSEWHERE",,OFS_COATINGS,,Reference Document,
-3,MDS-175,Material Specification List,AE,"Super 13Cr, 110 Min YS",Released,,"=""0.0""",,CXXD,MATERIAL SPECIFICATION,,MatEng,,Reference Document,
-3,100304618D,ProE Drawing,AG,"SUB, BOTTOM, 7 X 4.000 QUANTUM MAX",Released,,"=""0.0""",,CPED,,,CPS_COMPLETIONS,,Described By,
-3,CSP-99,Coating Specifications,BB,APPLICATION OF RUST PREVENTATIVES,Released,,"=""0.0""",,CSAD,COAT PER CSP-99 ON THE SEAL BORES DEPENDING ON THE ENVIRONMENTAL STORAGE DURATION AND SHIPPING CONDITIONS.THE COATING IS AT THE DISCRETION OF THE RESPECTIVE MANUFACTURING CENTER ENSURING THE PART/ASSEMBLY IS NOT DAMAGED DUE TO NOT COATING THE SEAL BORES WITH CSP-99,,MatEng,,Reference Document,
-2,100147616,Part SLB,AD,"RING, PICK-UP, 7 X 4.000 QUANTUM MAX, 4140/4145 (110)",Released,EA - Each,1.0,"=""027""",CPE6,,,CPS_COMPLETIONS,Uses,,
-3,MDS-204,Material Specification List,AG,"MDS-204, 4140/4145, 110 KSI",Released,,"=""0.0""",,CSA5,MATERIAL SPECIFICATION,,MatEng,,Reference Document,
-3,MN-15,Instruction-Procedure,AZ,PRODUCT IDENTIFICATION,Released,,"=""0.0""",,CAAD,BAG & TAG,,CPS_QA2,,Reference Document,
-3,CSP-16,Coating Specifications,BG,Zinc Phosphate for Low Alloy Steel and Carbon Steel - Unified Spec,Released,,"=""0.0""",,CSAD,COAT ENTIRE PART,,OFS_COATINGS,,Reference Document,
-3,100147616D,ProE Drawing,AF,"RING, PICK-UP, 7 X 4.000 QUANTUM MAX",Released,,"=""0.0""",,CPED,,,CPS_COMPLETIONS,,Described By,
-3,CHTS-24.40-01,Heat Treat Specifications,AL,"Carbon and Low Alloy Steels, Pre-Heat Treated, Stress Relieve For Machining",Released,,"=""0.0""",,CXXD,STRESS RELIEVE PRIOR TO SPLITTING ,,MatEng,,Reference Document,
-2,B015191,Screw Machine-Bolt,AA,"SCREW,HEX HD   1/2 -13 X 1  1/2  STL ZC     SAE GRADE 5",Released,EA - Each,1.0,"=""029""",WXL5,SHIPPING BOLT,,CoSeG-Mech,Uses,,
-2,18929-999-00019,Part SLB,"=""00""",CONTOURED BACK-UP RING (BORE SEAL) F/ O-RING #246,Released,EA - Each,2.0,"=""030""",CPG5,,,ACG_PACKER_DEV,Uses,,
-3,CNMS-P4000,Elastomer and Plastic Specifications,AY,Glass Filled PEEK (Polyetheretherketone Polymer),Released,,"=""0.0""",,CPHD,,,MatEng,,Reference Document,
-3,18929-999,ProE Drawing,AK,CONTOURED BACK-UP RING (BORE SEAL),Released,,1.0,,!TBD,,,MatEng,,Described By,
-2,B036144,Screw Machine-Bolt,AA,"SCREW, SOC HD, #8-32 X 5/16 LG, ALLOY STL",Released,EA - Each,1.0,"=""031""",CPA5,,,MWD_IMPULSE,Uses,,
-2,100147860,Part,AB,"KEY, SLIP, 7 X 4.000 QMAX, 4130/4140 (80)",Released,EA - Each,1.0,"=""032""",CPA6,,,CPS_COMPLETIONS,Uses,,
-3,CSP-16,Coating Specifications,BG,Zinc Phosphate for Low Alloy Steel and Carbon Steel - Unified Spec,Released,,"=""0.0""",,CSAD,,,OFS_COATINGS,,Reference Document,
-3,MN-15,Instruction-Procedure,AZ,PRODUCT IDENTIFICATION,Released,,"=""0.0""",,CAAD,,,CPS_QA2,,Reference Document,
-3,MDS-1,Material Specification List,AJ,"MDS-1, 4130/4140/4145 80 KSI  22 HRC MAX",Released,,"=""0.0""",,CXXD,,,MatEng,,Reference Document,
-3,100147860D,ProE Drawing,AB,"KEY, SLIP, 7 X 4.000 QMAX",Released,,"=""0.0""",,CPH6,,,CPS_COMPLETIONS,,Described By,
-2,16965-246-07000,Part SLB,"=""01""",O-RING #246,Released,EA - Each,1.0,"=""033""",CPG5,,,CPS_COMPLETIONS,Uses,,
-3,CNMS-E3100,Elastomer and Plastic Specifications,AL,"O-Ring, Aflas, 90 Durometer",Released,,"=""0.0""",,CPHD,MATERIAL SPECIFICATION,,MatEng,,Reference Document,
-3,16965-ORG,Document SLB,AA,AFLAS O-RING,Released,,"=""0.0""",,CPH6,,,CPS_COMPLETIONS,,Described By,
-2,B022562,Plain Washer,AA,"WASHER,1/2  PLAIN          STL          .53  X 1.12 X .12",Released,EA - Each,1.0,"=""034""",WK15,SHIPPING BOLT,,GENERAL,Uses,,
-2,B015017,Nut Lock-Non Lock,AA,"NUT,REG HEX         1/2 -13 STL CD W/CR",Released,EA - Each,1.0,"=""035""",WXL5,SHIPPING BOLT,,CoSeG-Mech,Uses,,
-3,102924434,Instruction-Procedure,AC,RTST and RPS Supplier Requirements Document,Released,,"=""0.0""",,TT5D,,,QUALITY-SPT,,Reference Document,
-2,100147649,Part,AB,"WASHER, SUPPORT, 7  X 4.000 QMAX 4130/4140 (80)",Released,EA - Each,1.0,"=""038""",CPA6,,,CPS_COMPLETIONS,Uses,,
-3,CSP-16,Coating Specifications,BG,Zinc Phosphate for Low Alloy Steel and Carbon Steel - Unified Spec,Released,,"=""0.0""",,CSAD,,,OFS_COATINGS,,Reference Document,
-3,MDS-1,Material Specification List,AJ,"MDS-1, 4130/4140/4145 80 KSI  22 HRC MAX",Released,,"=""0.0""",,CXXD,,,MatEng,,Reference Document,
-3,MN-15,Instruction-Procedure,AZ,PRODUCT IDENTIFICATION,Released,,"=""0.0""",,CAAD,,,CPS_QA2,,Reference Document,
-3,100147649D,ProE Drawing,AB,"WASHER, SUPPORT, 7 X 4.000 QMAX",Released,,"=""0.0""",,CPH6,,,CPS_COMPLETIONS,,Described By,
-
-
-
-
-
-
-
+7 X 4.000 QMAX",Released,EA - Each,0.0,,CPH6,QTY. 1 NEEDED FOR FAT,,CPS_COMPLETIONS,Mfg Equipment Process,
+3,100154393D,ProE Assembly,AB,"TOOL, COLLET INSTALLATION, 7 X 4.000 QMAX",Released,,0.0,,C40F - PACKER FG,,,CPS_COMPLETIONS,,Described By
+3,100154393D,ProE Drawing,AB,"TOOL, COLLET INSTALLATION, 7 X 4.000 QMAX",Released,,0.0,,CPH6,,,CPS_COMPLETIONS,,Described By
+3,MN-15,Instruction-Procedure,AZ,PRODUCT IDENTIFICATION,Released,,0.0,,CAAD,,,CPS_QA2,,Reference Document
+3,CSP-99,Coating Specifications,BB,APPLICATION OF RUST PREVENTATIVES,Released,,0.0,,CSAD,,,MatEng,,Reference Document
+3,100154404,Part SLB,AB,"BODY, TOOL, COLLET ASSEMBLY, 7 x 4.000 QMAX",Released,EA - Each,1,001,CPV6,,,CPS_COMPLETIONS,Uses,
+4,MDS-1,Material Specification List,AJ,"MDS-1, 4130/4140/4145 80 KSI  22 HRC MAX",Released,,0.0,,CXXD,MATERIAL SPECIFICATION,,MatEng,,Reference Document
+4,100154404D,ProE Part,AB,"BODY, TOOL, COLLET ASSEMBLY, 7 x 4.000 QMAX",Released,,0.0,,C40C - PACKER PARTS,,,CPS_COMPLETIONS,,Described By
+4,CSP-16,Coating Specifications,BG,Zinc Phosphate for Low Alloy Steel and Carbon Steel - Unified Spec,Released,,0.0,,CSAD,COATING SPECIFICATION,,OFS_COATINGS,,Reference Document
+4,MN-15,Instruction-Procedure,AZ,PRODUCT IDENTIFICATION,Released,,0.0,,CAAD,IDENTIFY PER,,CPS_QA2,,Reference Document
+4,100154404D,ProE Drawing,AB,"BODY, TOOL, COLLET ASSEMBLY, 7 x 4.000 QMAX",Released,,0.0,,TE35,,,CPS_COMPLETIONS,,Described By
+3,100154415,Part SLB,AB,"KEY, TOOL, COLLET ASSEMBLY, 7 X 4.000 QMAX",Released,EA - Each,1,002,CPV6,,,CPS_COMPLETIONS,Uses,
+4,MN-15,Instruction-Procedure,AZ,PRODUCT IDENTIFICATION,Released,,0.0,,CAAD,IDENTIFY PER,,CPS_QA2,,Reference Document
+4,100154415D,ProE Part,AB,"KEY, TOOL, COLLET ASSEMBLY, 7 X 4.000 QMAX",Released,,0.0,,C40C - PACKER PARTS,,,CPS_COMPLETIONS,,Described By
+4,100154415D,ProE Drawing,AB,"KEY, TOOL, COLLET ASSEMBLY, 7 X 4.000 QMAX",Released,,0.0,,TE35,,,CPS_COMPLETIONS,,Described By
+4,CSP-16,Coating Specifications,BG,Zinc Phosphate for Low Alloy Steel and Carbon Steel - Unified Spec,Released,,0.0,,CSAD,COATING SPECIFICATION,,OFS_COATINGS,,Reference Document
+4,MDS-1,Material Specification List,AJ,"MDS-1, 4130/4140/4145 80 KSI  22 HRC MAX",Released,,0.0,,CXXD,MATERIAL SPECIFICATION,,MatEng,,Reference Document
+3,457502000,Part SLB,AA,"PIN,COTTER 3/32 X 1 IN LG STEEL",Released,EA - Each,2,003,DXP6,,,CLG-DATACLEAN,Uses,
+2,100313898,Part SLB,AA,"BAR, DRIFT, 3.995 X 18.00 L, 4130 (80)",Released,EA - Each,0.0,,CPH6,"OR EQUIVALENT DRIFT BAR, ENSURE BORE ID IS NOT SCRATCHED",,CPS_COMPLETIONS,Mfg Equipment Process,
+3,MDS-1,Material Specification List,AJ,"MDS-1, 4130/4140/4145 80 KSI  22 HRC MAX",Released,,0.0,,CXXD,MATERIAL SPECIFICATION,,MatEng,,Reference Document
+3,87808-700,ProE Drawing,AF,"BAR, DRIFT, GENERIC",Released,,0.0,,!TBD,,,CPS_COMPLETIONS,,Described By
+3,CSP-86,Coating Specifications,AU,Ion Nitriding of Low Alloy and Stainless Steels,Released,,0.0,,CXXD,COAT ENTIRE LENGTH - OUTSIDE DIAMETER,,OFS_COATINGS,,Reference Document
+3,MN-15,Instruction-Procedure,AZ,PRODUCT IDENTIFICATION,Released,,0.0,,CAAD,STAMPING PROCEDURE,,CPS_QA2,,Reference Document
+3,103092000,Instruction-Procedure,AB,COMPLETIONS SUPPLIER REQUIREMENTS,Released,,0.0,,CXXD,,,CLG_SUPPLY_CHAIN,,Reference Document
+2,102026416,Instruction-Procedure,AB,"CHECKLIST, ASSEMBLY, 7 X 4.000 QUANTUM MAX",Released,,0.0,,CPED,ASSEMBLY CHECKLIST & FAT,,CPS_COMPLETIONS,,Reference Document
+2,100291874,Report Document,AE,"TEMPLATE, HYDRO TEST PLAN/REPORT FOR QUANTUM MAX PACKERS",Released,,0.0,,CPED,HYDRO TEST PLAN,,CPS_COMPLETIONS,,Reference Document
+2,101119467,Part SLB,AB,"SUB, UPPER MANDREL, 7 X 4.000 QUANTUM MAX, SUPER 13CR (110)",Released,EA - Each,1,002,CPE6,,,CPS_COMPLETIONS,Uses,
+3,CSP-70,Coating Specifications,BC,"Process Application of Friction Reducing Film, Xylan 1425 - Unified Spec",Released,,0.0,,CSAD,"FLAG 70, STUB ACME AND LEFT HAND SQUARE THREADS WHERE FLAGGED, MASK 63 FINISH SURFACE, OVERSPRAY ALLOWED ELSEWHERE",,OFS_COATINGS,,Reference Document
+3,MDS-175,Material Specification List,AE,"Super 13Cr, 110 Min YS",Released,,0.0,,CXXD,MATERIAL SPECIFICATION,,MatEng,,Reference Document
+3,100541391D,ProE Drawing,AC,"SUB, UPPER MANDREL, 7 X 4.000 QUANTUM MAX",Released,,0.0,,CPED,,,CPS_COMPLETIONS,,Described By
+3,MN-15,Instruction-Procedure,AZ,PRODUCT IDENTIFICATION,Released,,0.0,,CAAD,"FLAG 1, STAMP",,CPS_QA2,,Reference Document
+3,CSP-99,Coating Specifications,BB,APPLICATION OF RUST PREVENTATIVES,Released,,0.0,,CSAD,COAT PER CSP-99 ON THE SEAL BORES DEPENDING ON THE ENVIRONMENTAL STORAGE DURATION AND SHIPPING CONDITIONS. THE COATING IS AT THE DISCRETION OF THE RESPECTIVE MANUFACTURING CENTER ENSURING THE PART/ASSEMBLY IS NOT DAMAGED DUE TO NOT COATING THE SEAL BORES WITH CSP-99,,MatEng,,Reference Document
+2,101119468,Part SLB,AD,"MANDREL, 7 X 4.000 QUANTUM MAX (26-29), SUPER 13CR (110)",Released,EA - Each,1,003,CPE6,,,CPS_COMPLETIONS,Uses,
+3,MN-15,Instruction-Procedure,AZ,PRODUCT IDENTIFICATION,Released,,0.0,,CAAD,"FLAG 1, STAMP",,CPS_QA2,,Reference Document
+3,MDS-175,Material Specification List,AE,"Super 13Cr, 110 Min YS",Released,,0.0,,CXXD,MATERIAL SPECIFICATION,,MatEng,,Reference Document
+3,100249433D,ProE Drawing,AK,"MANDREL, 7 X 4.000 QUANTUM MAX",Released,,0.0,,CPED,,,CPS_COMPLETIONS,,Described By
+3,CSP-28,Coating Specifications,AM,Glass Bead Peening,Released,,0.0,,CXXD,"FLAG 28, STUB ACME AND 4.541 SPECIAL BUTTRESS THREADS WHERE FLAGGED, NO OVERSPRAY ALLOWED",,MatEng,,Reference Document
+3,100313898,Part SLB,AA,"BAR, DRIFT, 3.995 X 18.00 L, 4130 (80)",Released,EA - Each,0.0,,CPH6,"OR EQUIVALENT DRIFT BAR, ENSURE BORE ID IS NOT SCRATCHED",,CPS_COMPLETIONS,Mfg Equipment Process,
+4,MDS-1,Material Specification List,AJ,"MDS-1, 4130/4140/4145 80 KSI  22 HRC MAX",Released,,0.0,,CXXD,MATERIAL SPECIFICATION,,MatEng,,Reference Document
+4,87808-700,ProE Drawing,AF,"BAR, DRIFT, GENERIC",Released,,0.0,,!TBD,,,CPS_COMPLETIONS,,Described By
+4,CSP-86,Coating Specifications,AU,Ion Nitriding of Low Alloy and Stainless Steels,Released,,0.0,,CXXD,COAT ENTIRE LENGTH - OUTSIDE DIAMETER,,OFS_COATINGS,,Reference Document
+4,MN-15,Instruction-Procedure,AZ,PRODUCT IDENTIFICATION,Released,,0.0,,CAAD,STAMPING PROCEDURE,,CPS_QA2,,Reference Document
+4,103092000,Instruction-Procedure,AB,COMPLETIONS SUPPLIER REQUIREMENTS,Released,,0.0,,CXXD,,,CLG_SUPPLY_CHAIN,,Reference Document
+3,CSP-99,Coating Specifications,BB,APPLICATION OF RUST PREVENTATIVES,Released,,0.0,,CSAD,COAT PER CSP-99 ON THE SEAL BORES DEPENDING ON THE ENVIRONMENTAL STORAGE DURATION AND SHIPPING CONDITIONS. THE COATING IS AT THE DISCRETION OF THE RESPECTIVE MANUFACTURING CENTER ENSURING THE PART/ASSEMBLY IS NOT DAMAGED DUE TO NOT COATING THE SEAL BORES WITH CSP-99,,MatEng,,Reference Document
+2,100598870,Part SLB,AA,"KEY, TORQUE, QMAX, 4140(110)",Released,EA - Each,6,004,CPE6,,,CPS_COMPLETIONS,Uses,
+3,100598870D,ProE Drawing,AA,"KEY, TORQUE, QMAX",Released,,0.0,,CPE6,,,CPS_COMPLETIONS,,Described By
+3,MDS-204,Material Specification List,AG,"MDS-204, 4140/4145, 110 KSI",Released,,0.0,,CSA5,MATERIAL FOR MACHINING,,MatEng,,Reference Document
+3,MN-15,Instruction-Procedure,AZ,PRODUCT IDENTIFICATION,Released,,0.0,,CAAD,,,CPS_QA2,,Reference Document
+3,CSP-16,Coating Specifications,BG,Zinc Phosphate for Low Alloy Steel and Carbon Steel - Unified Spec,Released,,0.0,,CSAD,,,OFS_COATINGS,,Reference Document
+3,MDS-116,Material Specification List,AB,"MDS-116, 4140 CAST",Released,,0.0,,CPH6,MATERIAL FOR CASTING,,MatEng,,Reference Document
+2,44000-114-00001,Part SLB,AA,"SCREW, SLOTTED HEADLESS SHEAR, DOG POINT, 1/2-20 UNF-2A X .450 LONG, 675 Mn BRONZE (30), SHEAR VALUE (LBF) = 5000+/-500",Released,EA - Each,6,005,CPE6,SHEAR SCREW,,CPS_COMPLETIONS,Uses,
+3,44000-114,ProE Drawing,AH,"SCREW, SLOTTED HEADLESS SHEAR, DOG POINT, 1/2-20 UNF-2A X .450 LONG",Released,,0.0,,CPE6,,,CPS_COMPLETIONS,,Described By
+3,CSP-142,General Spec,AM,CSP-142: SHEAR TEST PROCEDURE TO MANUFACTURE SHEAR SCREWS AND PINS,Released,,0.0,,CPHD,SHEAR TESTING PROCEDURE,,CPS_COMPLETIONS,,Reference Document
+3,100120488,Material Specification List,AC,"MDS-239, BRONZE ALLOY 675",Released,,0.0,,GC26,MATERIAL SPECIFICATION,,CPS_QA1,,Reference Document
+3,MN-15,Instruction-Procedure,AZ,PRODUCT IDENTIFICATION,Released,,0.0,,CAAD,BAG & TAG,,CPS_QA2,,Reference Document
+3,103092000,Instruction-Procedure,AB,COMPLETIONS SUPPLIER REQUIREMENTS,Released,,0.0,,CXXD,,,CLG_SUPPLY_CHAIN,,Reference Document
+2,44000-011-00001,Part SLB,01,"HEXAGON SOCKET SET SCREW, 1/4""-20 X 5/16"", CUP POINT",Released,EA - Each,4,006,CPF5,,,CAMCO_LOAD,Uses,
+3,44000E-011-00001,Special Function Documents,AA,ENGINEERING NOTES FOR 44000-011-00001,Released,,0.0,,CSA5,HIDDEN DATA,,CAMCO_LOAD,,Reference Document
+3,44000-011,Document SLB,AA,"HEXAGON SOCKET SET SCREW, 1/4""-20 X 5/16"", CUP POINT",Released,,0.0,,!TBD,,,ACG_SC_HARDWARE,,Described By
+2,100155185,Part SLB,AB,"WASHER, RATCHET RETAINER, 7 X 4.000 QMAX, 4140 (110)",Released,EA - Each,2,007,CPA6,,,CPS_COMPLETIONS,Uses,
+3,MN-15,Instruction-Procedure,AZ,PRODUCT IDENTIFICATION,Released,,0.0,,CAAD,IDENTIFY PER,,CPS_QA2,,Reference Document
+3,MDS-204,Material Specification List,AG,"MDS-204, 4140/4145, 110 KSI",Released,,0.0,,CSA5,MATERIAL SPECIFICATION,,MatEng,,Reference Document
+3,100155185D,ProE Drawing,AB,"WASHER, RATCHET RETAINER, 7 X 4.000 QMAX",Released,,0.0,,CPH6,,,CPS_COMPLETIONS,,Described By
+3,CSP-16,Coating Specifications,BG,Zinc Phosphate for Low Alloy Steel and Carbon Steel - Unified Spec,Released,,0.0,,CSAD,COATING SPECIFICATION,,OFS_COATINGS,,Reference Document
+2,100097068,Part SLB,AF,"RING, RATCHET, 7 X 4.000 QUANTUM MAX, 4140/4145 (110)",Released,EA - Each,2,008,CPE6,,,CPS_COMPLETIONS,Uses,
+3,CHTS-24.40-01,Heat Treat Specifications,AL,"Carbon and Low Alloy Steels, Pre-Heat Treated, Stress Relieve For Machining",Released,,0.0,,CXXD,STRESS RELIEVE,,MatEng,,Reference Document
+3,CSP-16,Coating Specifications,BG,Zinc Phosphate for Low Alloy Steel and Carbon Steel - Unified Spec,Released,,0.0,,CSAD,ENTIRE PART,,OFS_COATINGS,,Reference Document
+3,100097068D,ProE Drawing,AF,"RING, RATCHET, 7 X 4.000 QUANTUM MAX",Released,,0.0,,CPED,,,CPS_COMPLETIONS,,Described By
+3,MN-15,Instruction-Procedure,AZ,PRODUCT IDENTIFICATION,Released,,0.0,,CAAD,"FLAG 1, STAMP",,CPS_QA2,,Reference Document
+3,MDS-204,Material Specification List,AG,"MDS-204, 4140/4145, 110 KSI",Released,,0.0,,CSA5,MATERIAL SPECIFICATION,,MatEng,,Reference Document
+3,100251196,Part SLB,AA,"LOCK RING GAGE MANDREL (4.619 O.D., L80)",Released,EA - Each,0.0,3,CPH6,TO TEST THE CLAMPING FORCE,,CPS_COMPLETIONS,Mfg Equipment Process,
+4,MDS-4,Material Specification List,AH,"MDS-4, 4130/4140/4145, L80 TYPE 1 EQUIVALENT",Released,,0.0,,CXXD,,,MatEng,,Reference Document
+4,AP927-322,ProE Drawing,AB,LOCK RING GAGE MANDREL,Released,,0.0,,CPED,,,CPS_COMPLETIONS,,Described By
+4,CSP-16,Coating Specifications,BG,Zinc Phosphate for Low Alloy Steel and Carbon Steel - Unified Spec,Released,,0.0,,CSAD,,,OFS_COATINGS,,Reference Document
+4,MN-15,Instruction-Procedure,AZ,PRODUCT IDENTIFICATION,Released,,0.0,,CAAD,,,CPS_QA2,,Reference Document
+3,100251194,Part SLB,AB,"LOCK RING HEAT TREAT MANDREL (4.540 O.D., L80)",Released,EA - Each,0.0,4,CPH6,FOR HEAT TREATING,,CPS_COMPLETIONS,Mfg Equipment Process,
+4,CSP-16,Coating Specifications,BG,Zinc Phosphate for Low Alloy Steel and Carbon Steel - Unified Spec,Released,,0.0,,CSAD,ENTIRE PART,,OFS_COATINGS,,Reference Document
+4,AP927-323,ProE Drawing,AB,LOCK RING HEAT TREAT MANDREL,Released,,0.0,,CPE6,,,CPS_COMPLETIONS,,Described By
+4,MDS-4,Material Specification List,AH,"MDS-4, 4130/4140/4145, L80 TYPE 1 EQUIVALENT",Released,,0.0,,CXXD,MATERIAL SPECIFICATION,,MatEng,,Reference Document
+4,MN-15,Instruction-Procedure,AZ,PRODUCT IDENTIFICATION,Released,,0.0,,CAAD,"FLAG 1, STAMP",,CPS_QA2,,Reference Document
+2,100431906,Part SLB,AA,"RING, UPPER GAUGE, 7 X 4.000 QMAX (32-35), 4130/4140 (80)",Released,EA - Each,1,009,CPA6,,,CPS_COMPLETIONS,Uses,
+3,100431906D,ProE Drawing,AA,"RING, UPPER GAUGE, 7 X 4.000 QMAX (32-35)",Released,,0.0,,CPH6,,,CPS_COMPLETIONS,,Described By
+3,MN-15,Instruction-Procedure,AZ,PRODUCT IDENTIFICATION,Released,,0.0,,CAAD,,,CPS_QA2,,Reference Document
+3,MDS-1,Material Specification List,AJ,"MDS-1, 4130/4140/4145 80 KSI  22 HRC MAX",Released,,0.0,,CXXD,,,MatEng,,Reference Document
+3,CSP-16,Coating Specifications,BG,Zinc Phosphate for Low Alloy Steel and Carbon Steel - Unified Spec,Released,,0.0,,CSAD,,,OFS_COATINGS,,Reference Document
+2,100166843,Part SLB,AB,"STACK, ELEMENT ARRAY, 7 (32-35), AFLAS (90-80-90)",Released,EA - Each,1,010,CPA6,,,CPS_COMPLETIONS,Uses,
+3,MN-15,Instruction-Procedure,AZ,PRODUCT IDENTIFICATION,Released,,0.0,,CAAD,,,CPS_QA2,,Reference Document
+3,100166815D,ProE Drawing,AB,"STACK, ELEMENT ARRAY, 7 (32-35 PPF)",Released,,0.0,,CPHE,,,CPS_COMPLETIONS,,Described By
+3,100041551,Part SLB,AG,"RING, END ELEMENT, FOLD BACK, 7 (32-35), 1015-1018 (35)",Released,EA - Each,2,0001,CPE6,,001,CPS_COMPLETIONS,Uses,
+4,CSP-16,Coating Specifications,BG,Zinc Phosphate for Low Alloy Steel and Carbon Steel - Unified Spec,Released,,0.0,,CSAD,ENTIRE PART,,OFS_COATINGS,,Reference Document
+4,CSP-28,Coating Specifications,AM,Glass Bead Peening,Released,,0.0,,CXXD,OPTIONAL IF SCALING OCCURS,,MatEng,,Reference Document
+4,100041551D,ProE Drawing,AG,"RING, END ELEMENT, FOLD BACK, 7 (32-35)",Released,,0.0,,CPED,,,CPS_COMPLETIONS,,Described By
+4,100832209,Certification Record,AD,GENERIC FOLDBACK RING INSPECTION SHEET,Released,,0.0,,CPHD,INSPECTION SHEET ,,WCP_BEL_CMS,,Reference Document
+4,MN-15,Instruction-Procedure,AZ,PRODUCT IDENTIFICATION,Released,,0.0,,CAAD,BAG & TAG,,CPS_QA2,,Reference Document
+4,100196655,Material Specification List,AA,"MDS-254, 1015-1018 FOR FOLD BACK RINGS ONLY",Released,,0.0,,DXG1,MATERIAL SPECIFICATION,,MatEng,,Reference Document
+3,100478836,Part SLB,AA,"ELEMENT, END, 7 (32-35), AFLAS, (90 DURO), MOLDED",Released,EA - Each,2,0002,CPA6,,002,CPS_COMPLETIONS,Uses,
+4,100041556D,ProE Drawing,AF,"ELEMENT, END, 7 (32-35)",Released,,0.0,,TE35,,,CPS_COMPLETIONS,,Described By
+4,CNMS-E3502,Elastomer and Plastic Specifications,AB,"CNMS E-3502:   AFLAS FLUOROELASTOMER PACKER ELEMENTS, HIGH HARDNESS",Released,,0.0,,DXG1,,,CPS_QA1,,Reference Document
+3,100478838,Part SLB,AA,"ELEMENT, CENTER, 7 (32-35), AFLAS, (80 DURO), MOLDED",Released,EA - Each,1,0003,CPA6,,003,CPS_COMPLETIONS,Uses,
+4,100054377D,ProE Drawing,AF,"ELEMENT, CENTER, 7 (32-35)",Released,,0.0,,TE35,,,CPS_COMPLETIONS,,Described By
+4,CNMS-E3402,Elastomer and Plastic Specifications,AA,"AFLAS FLUOROELASTOMER (RUBBER) PACKER ELEMENTS, MEDIUM HARDNESS",Released,,0.0,,DXG1,,,CPS_QA1,,Reference Document
+3,100036179,Part SLB,AB,"RING, BACKUP, 7IN, XHP, PEEK",Released,EA - Each,2,0004,CPA5,,004,CPS_COMPLETIONS,Uses,
+4,100036179D,ProE Drawing,AB,"RING, BACKUP, 7IN, XHP",Released,,0.0,,TE35,,,CPS_COMPLETIONS,,Described By
+4,MN-15,Instruction-Procedure,AZ,PRODUCT IDENTIFICATION,Released,,0.0,,CAAD,,,CPS_QA2,,Reference Document
+4,CNMS-P4000,Elastomer and Plastic Specifications,AY,Glass Filled PEEK (Polyetheretherketone Polymer),Released,,0.0,,CPHD,,,MatEng,,Reference Document
+4,103092000,Instruction-Procedure,AB,COMPLETIONS SUPPLIER REQUIREMENTS,Released,,0.0,,CXXD,,,CLG_SUPPLY_CHAIN,,Reference Document
+2,100431927,Part SLB,AA,"RING, LOWER GAUGE, 7 X 4.000 QMAX (32-35), 4130/4140 (80)",Released,EA - Each,1,011,CPA6,,,CPS_COMPLETIONS,Uses,
+3,100431927D,ProE Drawing,AA,"RING, LOWER GAUGE, 7 X 4.000 QMAX (32-35)",Released,,0.0,,CPH6,,,CPS_COMPLETIONS,,Described By
+3,MN-15,Instruction-Procedure,AZ,PRODUCT IDENTIFICATION,Released,,0.0,,CAAD,,,CPS_QA2,,Reference Document
+3,CSP-16,Coating Specifications,BG,Zinc Phosphate for Low Alloy Steel and Carbon Steel - Unified Spec,Released,,0.0,,CSAD,,,OFS_COATINGS,,Reference Document
+3,MDS-1,Material Specification List,AJ,"MDS-1, 4130/4140/4145 80 KSI  22 HRC MAX",Released,,0.0,,CXXD,,,MatEng,,Reference Document
+2,100147544,Part SLB,AG,"CONE, UPPER, 7 X 4.000 QUANTUM MAX (32-35), 41XX (110)",Released,EA - Each,1,012,CPE6,,,CPS_COMPLETIONS,Uses,
+3,MDS-204,Material Specification List,AG,"MDS-204, 4140/4145, 110 KSI",Released,,0.0,,CSA5,MATERIAL SPECIFICATION,,MatEng,,Reference Document
+3,MN-15,Instruction-Procedure,AZ,PRODUCT IDENTIFICATION,Released,,0.0,,CAAD,"FLAG 1, STAMP",,CPS_QA2,,Reference Document
+3,CSP-28,Coating Specifications,AM,Glass Bead Peening,Released,,0.0,,CXXD,"FLAG 28, STUB ACME THREADS, OVERSPRAY ALLOWED",,MatEng,,Reference Document
+3,CSP-16,Coating Specifications,BG,Zinc Phosphate for Low Alloy Steel and Carbon Steel - Unified Spec,Released,,0.0,,CSAD,ENTIRE PART,,OFS_COATINGS,,Reference Document
+3,100147544D,ProE Drawing,AF,"CONE, UPPER, 7 X 4.000 QUANTUM MAX (32-35)",Released,,0.0,,CPED,,,CPS_COMPLETIONS,,Described By
+2,101088399,Part SLB,AA,"SCREW, SHEAR, BARREL SLIP, 1/4-28 UNF-2A X .400, 4130/4140 (80), SHEAR VALUE 2,375 +/- 375 LBS",Released,EA - Each,8,013,CPH6,,,CPS_COMPLETIONS,Uses,
+3,CSP-142,General Spec,AM,CSP-142: SHEAR TEST PROCEDURE TO MANUFACTURE SHEAR SCREWS AND PINS,Released,,0.0,,CPHD,SHEAR TEST,,CPS_COMPLETIONS,,Reference Document
+3,69110-020,ProE Drawing,BA,"SCREW, SHEAR, BARREL SLIP, 1/4-28 UNF-2A",Released,,0.0,,CPHD,,,CPS_COMPLETIONS,,Described By
+3,MDS-1,Material Specification List,AJ,"MDS-1, 4130/4140/4145 80 KSI  22 HRC MAX",Released,,0.0,,CXXD,MATERIAL SPECIFICATION,,MatEng,,Reference Document
+3,MN-15,Instruction-Procedure,AZ,PRODUCT IDENTIFICATION,Released,,0.0,,CAAD,TAG & BAG,,CPS_QA2,,Reference Document
+3,CSP-16,Coating Specifications,BG,Zinc Phosphate for Low Alloy Steel and Carbon Steel - Unified Spec,Released,,0.0,,CSAD,ENTIRE PART,,OFS_COATINGS,,Reference Document
+2,100151078,Part SLB,AM,"SLIP, BARREL, 7 X 4.000 QUANTUM MAX (32-35), 4340 (125)",Released,EA - Each,1,014,CPE6,,,CPS_COMPLETIONS,Uses,
+3,CSP-86,Coating Specifications,AU,Ion Nitriding of Low Alloy and Stainless Steels,Released,,0.0,,CXXD,"APPLY TO TEETH SURFACES ONLY, MASK ALL REMAINING SURFACES",,OFS_COATINGS,,Reference Document
+3,100151078D,ProE Drawing,AK,"SLIP, BARREL, 7 X 4.000 QUANTUM MAX (32-35)",Released,,0.0,,CPED,,,CPS_COMPLETIONS,,Described By
+3,CSP-16,Coating Specifications,BG,Zinc Phosphate for Low Alloy Steel and Carbon Steel - Unified Spec,Released,,0.0,,CSAD,"ENTIRE PART, LEAVE TEETH SHARP DURING BEAD BLASTING FOR PARKERIZING",,OFS_COATINGS,,Reference Document
+3,NDE-22,Instruction-Procedure,BA,NDE-22; CONTINUOUS WET FLORESCENT MAGNETIC PARTICLE INSPECTION,Released,,0.0,,CPHD,AFTER MILLING OF SLOTS,,CPS_QANDE,,Reference Document
+3,MDS-214,Material Specification List,AB,"MDS-214, 4340, 125 KSI MIN YS",Released,,0.0,,CPH6,MATERIAL SPECIFICATION,,MatEng,,Reference Document
+3,MN-15,Instruction-Procedure,AZ,PRODUCT IDENTIFICATION,Released,,0.0,,CAAD,"FLAG 1, STAMP",,CPS_QA2,,Reference Document
+3,102707696,Instruction-Procedure,AA,BARREL SLIP MANUFACTURING PROCESS MAP,Released,,0.0,,CPVD,MANUFACTURE PROCESS MAP,,CPS_COMPLETIONS,,Reference Document
+2,100957754,Part SLB,AB,"SCREW, SHEAR, BARREL SLIP, 10-32 UNF-2A X .385, 4130/4140/4145 (80), SHEAR VALUE 1,250 +/- 250 LBS",Released,EA - Each,8,015,CPH6,,,CPS_COMPLETIONS,Uses,
+3,69162-011,ProE Drawing,AW,"SCREW, SHEAR, BARREL SLIP, 10-32 UNF-2A",Released,,0.0,,CPHD,,,CPS_COMPLETIONS,,Described By
+3,CSP-142,General Spec,AM,CSP-142: SHEAR TEST PROCEDURE TO MANUFACTURE SHEAR SCREWS AND PINS,Released,,0.0,,CPHD,SHEAR TEST,,CPS_COMPLETIONS,,Reference Document
+3,CSP-16,Coating Specifications,BG,Zinc Phosphate for Low Alloy Steel and Carbon Steel - Unified Spec,Released,,0.0,,CSAD,ENTIRE PART,,OFS_COATINGS,,Reference Document
+3,MDS-1,Material Specification List,AJ,"MDS-1, 4130/4140/4145 80 KSI  22 HRC MAX",Released,,0.0,,CXXD,MATERIAL SPECIFICATION,,MatEng,,Reference Document
+3,MN-15,Instruction-Procedure,AZ,PRODUCT IDENTIFICATION,Released,,0.0,,CAAD,BAG AND TAG,,CPS_QA2,,Reference Document
+2,100147559,Part SLB,AD,"CONE, LOWER, 7 X 4.000 QMAX (32-35), 41XX (110)",Released,EA - Each,1,016,CPA6,,,CPS_COMPLETIONS,Uses,
+3,CSP-28,Coating Specifications,AM,Glass Bead Peening,Released,,0.0,,CXXD,"FLAG 28,  STUB ACME THREAD, NO OVERSPRAY ALLOWED",,MatEng,,Reference Document
+3,MDS-204,Material Specification List,AG,"MDS-204, 4140/4145, 110 KSI",Released,,0.0,,CSA5,MATERIAL SPECIFICATION,,MatEng,,Reference Document
+3,CSP-16,Coating Specifications,BG,Zinc Phosphate for Low Alloy Steel and Carbon Steel - Unified Spec,Released,,0.0,,CSAD,ENTIRE PART,,OFS_COATINGS,,Reference Document
+3,100147559D,ProE Drawing,AD,"CONE, LOWER, 7 X 4.000 QMAX (32-35)",Released,,0.0,,CPHD,,,CPS_COMPLETIONS,,Described By
+3,MN-15,Instruction-Procedure,AZ,PRODUCT IDENTIFICATION,Released,,0.0,,CAAD,"FLAG 1, STAMP",,CPS_QA2,,Reference Document
+2,101119469,Part SLB,AB,"CONNECTOR, TAIL HOUSING, 7 X 4.000 QUANTUM MAX, SUPER 13CR (110)",Released,EA - Each,1,017,CPE6,,,CPS_COMPLETIONS,Uses,
+3,MN-15,Instruction-Procedure,AZ,PRODUCT IDENTIFICATION,Released,,0.0,,CAAD,"FLAG 1, STAMP",,CPS_QA2,,Reference Document
+3,CSP-70,Coating Specifications,BC,"Process Application of Friction Reducing Film, Xylan 1425 - Unified Spec",Released,,0.0,,CSAD,"FLAG 70, STUB ACME THREADS & 5.1175 ID SURFACES, OVERSPRAY ALLOWED.",,OFS_COATINGS,,Reference Document
+3,MDS-175,Material Specification List,AE,"Super 13Cr, 110 Min YS",Released,,0.0,,CXXD,MATERIAL SPECIFICATION,,MatEng,,Reference Document
+3,100249432D,ProE Drawing,AF,"CONNECTOR, TAIL HOUSING, 7 X 4.000 QUANTUM MAX",Released,,0.0,,CPAD,,,CPS_COMPLETIONS,,Described By
+2,100315553,Part SLB,AA,"BACK-UP RING, 5.115 BORE, CONTOURED, O-RING #351",Released,EA - Each,4,018,CPA6,,,CPS_COMPLETIONS,Uses,
+3,CNMS-P4000,Elastomer and Plastic Specifications,AY,Glass Filled PEEK (Polyetheretherketone Polymer),Released,,0.0,,CPHD,,,MatEng,,Reference Document
+3,18929-999,ProE Drawing,AK,CONTOURED BACK-UP RING (BORE SEAL),Released,,0.0,,!TBD,,,MatEng,,Described By
+2,16965-351-07000,Part SLB,00,O-RING #351,Released,EA - Each,2,019,5999,,,CAMCO_LOAD,Uses,
+3,16965E-351-07000,Special Function Documents,AA,ENGINEERING NOTES FOR 16965-351-07000,Released,,0.0,,CPH6,HIDDEN DATA,,CAMCO_LOAD,,Reference Document
+3,CNMS-E3100,Elastomer and Plastic Specifications,AL,"O-Ring, Aflas, 90 Durometer",Released,,0.0,,CPHD,MATERIAL SPECIFICATION,,MatEng,,Reference Document
+3,16965-351,Document SLB,#NAME?,O-RING #351,Released,,0.0,,CPHE,,,CAMCO_LOAD,,Described By
+2,101119470,Part SLB,AA,"COLLET, 7 X 4.000 QUANTUM MAX, SUPER 13CR (110)",Released,EA - Each,1,020,CPE6,,,CPS_COMPLETIONS,Uses,
+3,MN-15,Instruction-Procedure,AZ,PRODUCT IDENTIFICATION,Released,,0.0,,CAAD,"FLAG 1, STAMP",,CPS_QA2,,Reference Document
+3,100249434D,ProE Drawing,AF,"COLLET, 7 X 4.000 QUANTUM MAX",Released,,0.0,,CPED,,,CPS_COMPLETIONS,,Described By
+3,MDS-175,Material Specification List,AE,"Super 13Cr, 110 Min YS",Released,,0.0,,CXXD,MATERIAL SPECIFICATION,,MatEng,,Reference Document
+3,CSP-70,Coating Specifications,BC,"Process Application of Friction Reducing Film, Xylan 1425 - Unified Spec",Released,,0.0,,CSAD,"FLAG 70, ENTIRE OD AND BUTTRESS THREADS, OVERSPRAY ALLOWED",,OFS_COATINGS,,Reference Document
+2,101119471,Part SLB,AB,"SLEEVE, RELEASE, 7 X 4.000 QUANTUM MAX, SUPER 13CR (110)",Released,EA - Each,1,022,CPE6,,,CPS_COMPLETIONS,Uses,
+3,MN-15,Instruction-Procedure,AZ,PRODUCT IDENTIFICATION,Released,,0.0,,CAAD,"FLAG 1, STAMP",,CPS_QA2,,Reference Document
+3,100249435D,ProE Drawing,AE,"SLEEVE, RELEASE, 7 X 4.000 QUANTUM MAX",Released,,0.0,,CPAD,,,CPS_COMPLETIONS,,Described By
+3,MDS-175,Material Specification List,AE,"Super 13Cr, 110 Min YS",Released,,0.0,,CXXD,MATERIAL SPECIFICATION,,MatEng,,Reference Document
+3,CSP-70,Coating Specifications,BC,"Process Application of Friction Reducing Film, Xylan 1425 - Unified Spec",Released,,0.0,,CSAD,COAT ENTIRE PART,,OFS_COATINGS,,Reference Document
+2,AP100-029-00001,Part SLB,AF,"SCREW, SHEAR, 5/16-24 UNF-2A X .312 LONG, 675 Mn BRONZE (60), SHEAR VALUE (LBS) = 2000",Released,EA - Each,10,023,CPH6,SHEAR SCREW,,CPS_COMPLETIONS,Uses,
+3,CSP-142,General Spec,AM,CSP-142: SHEAR TEST PROCEDURE TO MANUFACTURE SHEAR SCREWS AND PINS,Released,,0.0,,CPHD,SHEAR SCREW AND SHEAR PIN MANUFACTURE & TESTING REQUIREMENTS,,CPS_COMPLETIONS,,Reference Document
+3,100120488,Material Specification List,AC,"MDS-239, BRONZE ALLOY 675",Released,,0.0,,GC26,MATERIAL SPECIFICATION,,CPS_QA1,,Reference Document
+3,MN-15,Instruction-Procedure,AZ,PRODUCT IDENTIFICATION,Released,,0.0,,CAAD,BAG AND TAG,,CPS_QA2,,Reference Document
+3,AP100-029,ProE Drawing,AH,"SCREW, SHEAR, 5/16-24 UNF-2A X .312 LONG",Released,,0.0,,CPHD,,,CPS_COMPLETIONS,,Described By
+2,100147596,Part,AB,"RING, BOTTOM GAUGE, 7 X 4.000 QMAX (32-35), 4130/4140 (80)",Released,EA - Each,1,024,CPA6,,,CPS_COMPLETIONS,Uses,
+3,MDS-1,Material Specification List,AJ,"MDS-1, 4130/4140/4145 80 KSI  22 HRC MAX",Released,,0.0,,CXXD,,,MatEng,,Reference Document
+3,100147596D,ProE Drawing,AB,"RING, BOTTOM GAUGE, 7  X 4.000 QMAX (32-35) ",Released,,0.0,,CPH6,,,CPS_COMPLETIONS,,Described By
+3,CSP-16,Coating Specifications,BG,Zinc Phosphate for Low Alloy Steel and Carbon Steel - Unified Spec,Released,,0.0,,CSAD,,,OFS_COATINGS,,Reference Document
+3,MN-15,Instruction-Procedure,AZ,PRODUCT IDENTIFICATION,Released,,0.0,,CAAD,,,CPS_QA2,,Reference Document
+2,101119472,Part SLB,AD,"SUB, BOTTOM, 7 X 4.000 QUANTUM MAX, SUPER 13CR (110)",Released,EA - Each,1,026,CPE6,,,CPS_COMPLETIONS,Uses,
+3,MN-15,Instruction-Procedure,AZ,PRODUCT IDENTIFICATION,Released,,0.0,,CAAD,"FLAG 1, STAMP",,CPS_QA2,,Reference Document
+3,CSP-70,Coating Specifications,BC,"Process Application of Friction Reducing Film, Xylan 1425 - Unified Spec",Released,,0.0,,CSAD,"FLAG 70, 5.250-8 STUB ACME THREAD AND 3.250 LENGTH DIMENSION, MASK O-RING GROOVES AND 63 FINISH SURFACES, OVERSPRAY ALLOWED ELSEWHERE",,OFS_COATINGS,,Reference Document
+3,MDS-175,Material Specification List,AE,"Super 13Cr, 110 Min YS",Released,,0.0,,CXXD,MATERIAL SPECIFICATION,,MatEng,,Reference Document
+3,100304618D,ProE Drawing,AG,"SUB, BOTTOM, 7 X 4.000 QUANTUM MAX",Released,,0.0,,CPED,,,CPS_COMPLETIONS,,Described By
+3,CSP-99,Coating Specifications,BB,APPLICATION OF RUST PREVENTATIVES,Released,,0.0,,CSAD,COAT PER CSP-99 ON THE SEAL BORES DEPENDING ON THE ENVIRONMENTAL STORAGE DURATION AND SHIPPING CONDITIONS.THE COATING IS AT THE DISCRETION OF THE RESPECTIVE MANUFACTURING CENTER ENSURING THE PART/ASSEMBLY IS NOT DAMAGED DUE TO NOT COATING THE SEAL BORES WITH CSP-99,,MatEng,,Reference Document
+2,100147616,Part SLB,AD,"RING, PICK-UP, 7 X 4.000 QUANTUM MAX, 4140/4145 (110)",Released,EA - Each,1,027,CPE6,,,CPS_COMPLETIONS,Uses,
+3,MDS-204,Material Specification List,AG,"MDS-204, 4140/4145, 110 KSI",Released,,0.0,,CSA5,MATERIAL SPECIFICATION,,MatEng,,Reference Document
+3,MN-15,Instruction-Procedure,AZ,PRODUCT IDENTIFICATION,Released,,0.0,,CAAD,BAG & TAG,,CPS_QA2,,Reference Document
+3,CSP-16,Coating Specifications,BG,Zinc Phosphate for Low Alloy Steel and Carbon Steel - Unified Spec,Released,,0.0,,CSAD,COAT ENTIRE PART,,OFS_COATINGS,,Reference Document
+3,100147616D,ProE Drawing,AF,"RING, PICK-UP, 7 X 4.000 QUANTUM MAX",Released,,0.0,,CPED,,,CPS_COMPLETIONS,,Described By
+3,CHTS-24.40-01,Heat Treat Specifications,AL,"Carbon and Low Alloy Steels, Pre-Heat Treated, Stress Relieve For Machining",Released,,0.0,,CXXD,STRESS RELIEVE PRIOR TO SPLITTING ,,MatEng,,Reference Document
+2,B015191,Screw Machine-Bolt,AA,"SCREW,HEX HD   1/2 -13 X 1  1/2  STL ZC     SAE GRADE 5",Released,EA - Each,1,029,WXL5,SHIPPING BOLT,,CoSeG-Mech,Uses,
+2,18929-999-00019,Part SLB,00,CONTOURED BACK-UP RING (BORE SEAL) F/ O-RING #246,Released,EA - Each,2,030,CPG5,,,ACG_PACKER_DEV,Uses,
+3,CNMS-P4000,Elastomer and Plastic Specifications,AY,Glass Filled PEEK (Polyetheretherketone Polymer),Released,,0.0,,CPHD,,,MatEng,,Reference Document
+3,18929-999,ProE Drawing,AK,CONTOURED BACK-UP RING (BORE SEAL),Released,,1,,!TBD,,,MatEng,,Described By
+2,B036144,Screw Machine-Bolt,AA,"SCREW, SOC HD, #8-32 X 5/16 LG, ALLOY STL",Released,EA - Each,1,031,CPA5,,,MWD_IMPULSE,Uses,
+2,100147860,Part,AB,"KEY, SLIP, 7 X 4.000 QMAX, 4130/4140 (80)",Released,EA - Each,1,032,CPA6,,,CPS_COMPLETIONS,Uses,
+3,CSP-16,Coating Specifications,BG,Zinc Phosphate for Low Alloy Steel and Carbon Steel - Unified Spec,Released,,0.0,,CSAD,,,OFS_COATINGS,,Reference Document
+3,MN-15,Instruction-Procedure,AZ,PRODUCT IDENTIFICATION,Released,,0.0,,CAAD,,,CPS_QA2,,Reference Document
+3,MDS-1,Material Specification List,AJ,"MDS-1, 4130/4140/4145 80 KSI  22 HRC MAX",Released,,0.0,,CXXD,,,MatEng,,Reference Document
+3,100147860D,ProE Drawing,AB,"KEY, SLIP, 7 X 4.000 QMAX",Released,,0.0,,CPH6,,,CPS_COMPLETIONS,,Described By
+2,16965-246-07000,Part SLB,01,O-RING #246,Released,EA - Each,1,033,CPG5,,,CPS_COMPLETIONS,Uses,
+3,CNMS-E3100,Elastomer and Plastic Specifications,AL,"O-Ring, Aflas, 90 Durometer",Released,,0.0,,CPHD,MATERIAL SPECIFICATION,,MatEng,,Reference Document
+3,16965-ORG,Document SLB,AA,AFLAS O-RING,Released,,0.0,,CPH6,,,CPS_COMPLETIONS,,Described By
+2,B022562,Plain Washer,AA,"WASHER,1/2  PLAIN          STL          .53  X 1.12 X .12",Released,EA - Each,1,034,WK15,SHIPPING BOLT,,GENERAL,Uses,
+2,B015017,Nut Lock-Non Lock,AA,"NUT,REG HEX         1/2 -13 STL CD W/CR",Released,EA - Each,1,035,WXL5,SHIPPING BOLT,,CoSeG-Mech,Uses,
+3,102924434,Instruction-Procedure,AC,RTST and RPS Supplier Requirements Document,Released,,0.0,,TT5D,,,QUALITY-SPT,,Reference Document
+2,100147649,Part,AB,"WASHER, SUPPORT, 7  X 4.000 QMAX 4130/4140 (80)",Released,EA - Each,1,038,CPA6,,,CPS_COMPLETIONS,Uses,
+3,CSP-16,Coating Specifications,BG,Zinc Phosphate for Low Alloy Steel and Carbon Steel - Unified Spec,Released,,0.0,,CSAD,,,OFS_COATINGS,,Reference Document
+3,MDS-1,Material Specification List,AJ,"MDS-1, 4130/4140/4145 80 KSI  22 HRC MAX",Released,,0.0,,CXXD,,,MatEng,,Reference Document
+3,MN-15,Instruction-Procedure,AZ,PRODUCT IDENTIFICATION,Released,,0.0,,CAAD,,,CPS_QA2,,Reference Document
+3,100147649D,ProE Drawing,AB,"WASHER, SUPPORT, 7 X 4.000 QMAX",Released,,0.0,,CPH6,,,CPS_COMPLETIONS,,Described By
