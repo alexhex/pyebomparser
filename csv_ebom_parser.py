@@ -22,6 +22,18 @@ def make_table(origin):
                 row['Parent Name'] = id_group[int(row['Level'])-2]
             except:
                 row['Parent Name'] = 'NA'
+            try:
+                row['Qty'] = float(re.sub(r'[=\"\']','', row['Qty'])) 
+            except:
+                row['Qty'] = ''
+            try:
+                x = row['Item Number']
+                x = re.sub(r'\D','',x)
+                x = int(x)
+                x = ("%04d" % x)
+                row['Item Number'] = x 
+            except:
+                row['Item Number'] = ''
             # print (row)
 
             # from below the codes are filtering the rows to write in file. 
@@ -41,39 +53,56 @@ def compare(base, ref):
         cmnwriter.writeheader()
 
         for row_1 in base:
-            row_1['Comments'] = ''
-            for row_2 in ref:
-                if row_1['Level'] == '2' and row_2['Level'] == '2' and row_1['Name'] == row_2['Name']:
-                    if row_1['Qty'] == row_2['Qty']:
-                        row_1['Comments'] = 'Perfect Match'
-                        cmnwriter.writerow(simp_row(row_1))
-                        break
-                    else:
-                        row_1['Comments'] = 'Qty changed from %s to %s' % (row_2['Qty'], row_1['Qty'])
-                        cmnwriter.writerow(simp_row(row_1))
-                        break
-            
-            #Start to handle the drawing comparison
-            # refreader = csv.DictReader(refhandle)
-            if row_1['Comments'] == '':
+            if row_1['Level'] == '2':
+                # print (row_1['Qty'])
+                # print (row_1['Item Number'])
+                row_1['Comments'] = ''
                 for row_2 in ref:
-                    if row_2['Level'] == '3' and row_1['Level'] == '2' and get_drawing(row_1, base) == row_2['Name']:
-                        row_1['Comments'] = 'share the same drawing %s' % (row_2['Name'])
-                        cmnwriter.writerow(simp_row(row_1, row_2['Parent Name']))
-                        break
+                    if row_2['Level'] == '2' and row_1['Name'] == row_2['Name']:
+                        if row_1['Qty'] == row_2['Qty']:
+                            row_1['Comments'] = 'Perfect match'
+                            cmnwriter.writerow(simp_row(row_1))
+                            break
+                        else:
+                            row_1['Comments'] = 'Qty changed from %s to %s' % (row_2['Qty'], row_1['Qty'])
+                            cmnwriter.writerow(simp_row(row_1))
+                            break
+                
+                #Start to handle the drawing comparison
+                # refreader = csv.DictReader(refhandle)
+                if row_1['Comments'] == '':
+                    for row_2 in ref:
+                        if row_2['Level'] == '3' and get_drawing(row_1, base) == row_2['Name']:
+                            row_1['Comments'] = 'share the same drawing %s' % (row_2['Name'])
+                            cmnwriter.writerow(simp_row(row_1, row_2['Parent Name']))
+                            break
 
-            # Till here the corresponding part is still not found... 
-            if row_1['Comments'] == '':
-                if row_1['Level'] == '2':
-                    row_1['Comments'] = 'Cannot find the corresponding part'
-                    cmnwriter.writerow(simp_row(row_1))
-
+                # Till here the corresponding part is still not found... 
+                # Will try to use the item number
+                if row_1['Comments'] == '':
+                    mark = False
+                    corr_pn = ''
+                    for row_2 in ref:
+                        if row_2['Item Number'] == row_1['Item Number'] and row_2['Level'] == '2':
+                            mark = True
+                            break
+                    if mark:
+                        corr_pn = row_2['Name']
+                        drawing1 = get_drawing(row_1, base)
+                        drawing2 = get_drawing(row_2, ref)
+                        row_1['Comments'] = 'Compare drawing %s with %s based on item number' % (drawing1, drawing2)
+                    else:
+                        row_1['Comments'] = 'Cannot find the corresponding part'
+                    cmnwriter.writerow(simp_row(row_1, corr_pn))
+                    
 
 def get_drawing(row, raw_tb):
+    drawing_number = 'NA'
     for gst_row in raw_tb:
         if gst_row['Level'] == '3' and gst_row['Type'] == 'ProE Drawing' and gst_row['Parent Name'] == row['Name']:
-            return gst_row['Name']
-         
+            drawing_number = gst_row['Name']
+            break
+    return (drawing_number)
 
 def simp_row(long_row, refpn = ''):
     long_descr = long_row['Description']
@@ -113,9 +142,9 @@ def simp_row(long_row, refpn = ''):
     return short_row
 
 folderpath = os.path.dirname(os.path.abspath(__file__))
-filename_1 = '103130620.csv'
+filename_1 = 'base.csv'
 fullpath_1 = os.path.join(folderpath, filename_1)
-filename_2 = '101706021.csv'
+filename_2 = 'ref.csv'
 fullpath_2 = os.path.join(folderpath, filename_2)
 
 
