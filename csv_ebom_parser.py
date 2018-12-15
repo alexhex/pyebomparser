@@ -28,9 +28,7 @@ def make_table(origin):
                 row['Qty'] = ''
             try:
                 x = row['Item Number']
-                x = re.sub(r'\D','',x)
-                x = int(x)
-                x = ("%04d" % x)
+                x = int(re.sub(r'\D','',x))
                 row['Item Number'] = x 
             except:
                 row['Item Number'] = ''

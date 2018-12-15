@@ -1,5 +1,16 @@
+import sys
+
+print (sys.version)
 
 
-for i in range(5):
-    for j in range(10):
-        print ('%d / %d' % (i, j))
+def convert(typ):
+    func_name = 'convert_' + '_'.join(typ.lower().split(' '))
+    return func_name
+
+
+a = 'Item NUmber'
+b = 'Qty'
+
+
+print (convert(a))
+print (convert(b))
